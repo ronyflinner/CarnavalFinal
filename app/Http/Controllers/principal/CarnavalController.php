@@ -21,7 +21,7 @@ class CarnavalController extends Controller {
 
 	}
 	public function HistoriaCarnavalSaoPaolo() {
-		return view('principal.historia_sao');
+		return view('principal.carnaval.historia_sao');
 	}
 	public function SanBodromo() {
 		return view('principal.SanBodromo');

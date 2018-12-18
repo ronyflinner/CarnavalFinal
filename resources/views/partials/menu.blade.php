@@ -34,9 +34,9 @@
                             <div class="classynav">
                                 <ul>
                                     <li><a href="{{ url('/') }}">Inicio &nbsp; &nbsp;</a></li>
-                                    <li><a href="portfolio.html">Carnaval de São Paulo</a>
+                                    <li><a href="{{url('/') }}">Carnaval de São Paulo</a>
                                         <ul class="dropdown">
-                                            <li><a href="index.html">Historia</a></li>
+                                            <li><a href="{{ route('carnaval.historiaSaoPaolo') }}">Historia</a></li>
                                             <li><a href="about.html">El Sambódromo</a></li>
                                         </ul>
                                     </li>
