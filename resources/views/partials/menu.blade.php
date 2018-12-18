@@ -44,17 +44,17 @@
                                     <li><a href="portfolio.html">Escuela Unidos de Vila Maria</a>
                                         <ul class="dropdown">
                                             <li><a href="{{ route('escuela.historiaSamba') }}">Historia</a></li>
-                                            <li><a href="about.html">El Sambódromo</a></li>
+                                            <li><a href="about.html">Logros y Reconocimientos</a></li>
                                         </ul>
                                     </li>
                                     <li><a href="portfolio.html">Perú en el Carnaval</a>
                                         <ul class="dropdown">
-                                            <li><a href="index.html">Reseña</a></li>
-                                            <li><a href="portfolio.html">Puesta en escena</a>
+                                            <li><a href="{{ route('peru.resenaCarnaval') }}">Reseña</a></li>
+                                            <li><a href="{{ route('peru.puestaEscena') }}" >Puesta en escena</a>
                                                 <ul class="dropdown">
-                                                    <li><a href="about.html">Trama</a></li>
-                                                    <li><a href="services.html">Vestuario</a></li>
-                                                    <li><a href="portfolio.html">Carnavalescos</a></li>
+                                                    <li><a href="{{ route('peru.puestaEscena.tramas') }}"  >Trama</a></li>
+                                                    <li><a href="{{ route('peru.puestaEscena.vestuario') }}" >Vestuario</a></li>
+                                                    <li><a href="{{ route('peru.puestaEscena.carnavalesco') }}"">Carnavalescos</a></li>
                                                     <li><a href="contact.html">Carros Alegóricos
                                                 </a></li>
                                                     <li><a href="elements.html">Música</a></li>

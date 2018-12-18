@@ -55,7 +55,7 @@
 
             <a href="#">
 
-                <img class="img-responsive" id="play" src="{{ url('Carnaval1/img/logo-img/icono.png') }}" alt="" >
+                <img class="img-responsive js-video-button " data-video-id='ql01LRI4fxA' id="play" src="{{ url('Carnaval1/img/logo-img/icono.png') }}" alt="" >
             </a>
 
         </div>

@@ -22,10 +22,14 @@
 <div id="fh5co-contact" style="background-image: url({{ url('carnaval/images/bg/st-2.png') }});">
 		<div class="container text-justify">
 			  <div class="row" >
-				<div class="col-md-6  animate-box"  ><br><br><br>
+				<div class="col-md-6 wow bounceInLeft"  >
+					<br>
+					<br>
+					<br>
+					<br>
 					<img class="img-responsive img-thumbnail- bounce-in " src="{{url('Carnaval1/img/pag/historia_escuela/img_600x400.png')}}">
 				</div>
-				<div class="col-md-6 animate-box">
+				<div class="col-md-6 wow bounceInRight" >
 
 					 <h2 class="text-center"><img src="{{url('Carnaval1/img/text-img/historiasao.png')}}" class="img-responsive shake-slow" width="200px" height="205px"></h2>
 					 <div class="mb-4"></div>
@@ -54,56 +58,56 @@
 		<div class="owl-carousel owl-carousel-fullwidth">
            <div class="item animate-box">
                 <div class="team-image">
-               		 <a href="{{ url('carnaval/images/pag/historia_escuela/1.png') }}" data-toggle="lightbox" data-gallery="example-gallery">
-		                 <img class="img-responsive img-thumbnail bounce-in" src="{{ url('carnaval/images/pag/historia_escuela/1.png') }}" alt="" width="">
+               		 <a href="{{ url('Carnaval1/img/pag/historia_escuela/1.png') }}" data-toggle="lightbox" data-gallery="example-gallery">
+		                 <img class="img-responsive img-thumbnail bounce-in" src="{{ url('Carnaval1/img/pag/historia_escuela/1.png') }}" alt="" width="">
 		            </a>
 
                 </div>
             </div>
             <div class="item animate-box">
                 <div class="team-image">
-               		 <a href="{{ url('carnaval/images/pag/historia_escuela/2.png') }}" data-toggle="lightbox" data-gallery="example-gallery">
-		                 <img class="img-responsive img-thumbnail bounce-in" src="{{ url('carnaval/images/pag/historia_escuela/2.png') }}" alt="" width="">
+               		 <a href="{{ url('Carnaval1/iCg/pag/h1istoria_escuela/2.png') }}" data-toggle="lightbox" data-gallery="example-gallery">
+		                 <img class="img-responsive img-thumbnail bounce-in" src="{{ url('Carnaval1/img/pag/historia_escuela/2.png') }}" alt="" width="">
 		            </a>
 
                 </div>
             </div>
          <div class="item animate-box">
                 <div class="team-image">
-               		 <a href="{{ url('carnaval/images/pag/historia_escuela/3.png') }}" data-toggle="lightbox" data-gallery="example-gallery">
-		                 <img class="img-responsive img-thumbnail bounce-in" src="{{ url('carnaval/images/pag/historia_escuela/3.png') }}" alt="" width="">
+               		 <a href="{{ url('Carnaval1/img/pag/historia_escuela/3.png') }}" data-toggle="lightbox" data-gallery="example-gallery">
+		                 <img class="img-responsive img-thumbnail bounce-in" src="{{ url('Carnaval1/img/pag/historia_escuela/3.png') }}" alt="" width="">
 		            </a>
 
                 </div>
             </div>
            <div class="item animate-box">
                 <div class="team-image">
-               		 <a href="{{ url('carnaval/images/pag/historia_escuela/4.png') }}" data-toggle="lightbox" data-gallery="example-gallery">
-		                 <img class="img-responsive img-thumbnail bounce-in" src="{{ url('carnaval/images/pag/historia_escuela/4.png') }}" alt="" width="">
+               		 <a href="{{ url('Carnaval1/img/pag/historia_escuela/4.png') }}" data-toggle="lightbox" data-gallery="example-gallery">
+		                 <img class="img-responsive img-thumbnail bounce-in" src="{{ url('Carnaval1/img/pag/historia_escuela/4.png') }}" alt="" width="">
 		            </a>
 
                 </div>
             </div>
            <div class="item animate-box">
                 <div class="team-image">
-               		 <a href="{{ url('carnaval/images/pag/historia_escuela/5.png') }}" data-toggle="lightbox" data-gallery="example-gallery">
-		                 <img class="img-responsive img-thumbnail bounce-in" src="{{ url('carnaval/images/pag/historia_escuela/5.png') }}" alt="" width="">
+               		 <a href="{{ url('Carnaval1/img/pag/historia_escuela/5.png') }}" data-toggle="lightbox" data-gallery="example-gallery">
+		                 <img class="img-responsive img-thumbnail bounce-in" src="{{ url('Carnaval1/img/pag/historia_escuela/5.png') }}" alt="" width="">
 		            </a>
 
                 </div>
             </div>
             <div class="item animate-box">
                 <div class="team-image">
-               		 <a href="{{ url('carnaval/images/pag/historia_escuela/6.png') }}" data-toggle="lightbox" data-gallery="example-gallery">
-		                 <img class="img-responsive img-thumbnail bounce-in" src="{{ url('carnaval/images/pag/historia_escuela/6.png') }}" alt="" width="">
+               		 <a href="{{ url('Carnaval1/img/pag/historia_escuela/6.png') }}" data-toggle="lightbox" data-gallery="example-gallery">
+		                 <img class="img-responsive img-thumbnail bounce-in" src="{{ url('Carnaval1/img/pag/historia_escuela/6.png') }}" alt="" width="">
 		            </a>
 
                 </div>
             </div>
            <div class="item animate-box">
                 <div class="team-image">
-               		 <a href="{{ url('carnaval/images/pag/historia_escuela/7.png') }}" data-toggle="lightbox" data-gallery="example-gallery">
-		                 <img class="img-responsive img-thumbnail bounce-in" src="{{ url('carnaval/images/pag/historia_escuela/7.png') }}" alt="" width="">
+               		 <a href="{{ url('carnaval/img/pag/historia_escuela/7.png') }}" data-toggle="lightbox" data-gallery="example-gallery">
+		                 <img class="img-responsive img-thumbnail bounce-in" src="{{ url('carnaval/img/pag/historia_escuela/7.png') }}" alt="" width="">
 		            </a>
 
                 </div>

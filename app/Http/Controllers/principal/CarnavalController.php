@@ -36,7 +36,7 @@ class CarnavalController extends Controller {
 		return view('principal.escuelaLogroReconococimiento');
 	}
 	public function resenaCarnaval() {
-		return view('principal.reseñaPeruCarnaval');
+		return view('principal.peru.reseñaPeruCarnaval');
 	}
 
 	/*PUESTA EN ESCENA*/
@@ -45,7 +45,7 @@ class CarnavalController extends Controller {
 	}
 	/*SUB*/
 	public function tramas() {
-		return view('principal.puestaMarcha.tramas');
+		return view('principal.peru.tramas');
 	}
 
 	public function alegorias() {
@@ -57,11 +57,11 @@ class CarnavalController extends Controller {
 	}
 
 	public function carnavalesco() {
-		return view('principal.puestaMarcha.carnavalesco');
+		return view('principal.peru.carnavalesco');
 	}
 
 	public function vestuario() {
-		return view('principal.puestaMarcha.vestuarios');
+		return view('principal.peru.vestuarios');
 	}
 
 	public function musica() {
