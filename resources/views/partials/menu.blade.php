@@ -44,7 +44,7 @@
                                     <li><a href="portfolio.html">Escuela Unidos de Vila Maria</a>
                                         <ul class="dropdown">
                                             <li><a href="{{ route('escuela.historiaSamba') }}">Historia</a></li>
-                                            <li><a href="about.html">El Sambódromo</a></li>
+                                            <li><a href="about.html">Logros y Reconocimientos</a></li>
                                         </ul>
                                     </li>
                                     <li><a href="portfolio.html">Perú en el Carnaval</a>

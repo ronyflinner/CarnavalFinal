@@ -20,6 +20,13 @@
         <link  rel="stylesheet" type="text/css" href="{{ url('Carnaval1/css/simplyCountdown.theme.losange.css') }}">
         <link  rel="stylesheet" type="text/css" href="{{ url('Carnaval1/css/animate.css') }}">
 
+        <link  rel="stylesheet" type="text/css" href="{{ url('Carnaval1/css/prettyPhoto.css') }}">
+        <link  rel="stylesheet" type="text/css" href="{{ url('Carnaval1/css/modal-video.min.css') }}">
+
+        <link  rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">
+
+
+
     </head>
 
     <style type="text/css">
