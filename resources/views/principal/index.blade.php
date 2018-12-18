@@ -13,25 +13,35 @@
 
                     <div class="row h-100 align-items-center ">
                         <div class="col-12 col-lg-12">
-
                             <div class="welcome-text d-flex justify-content-center" >
                                 <h2 data-animation="fadeInUp" data-delay="300ms"><span>
-                                    <img src="{{ url('Carnaval1/img/text-img/titulo_principal.png') }}" style="height: 130px; width:500px;" alt=""></h2>
-
-
-
+                                    <img src="{{ url('Carnaval1/img/text-img/titulo_principal.png') }}" style="height: 130px; width:500px;" alt="">
+                                </h2>
                             </div>
-
                         </div>
                     </div>
                 </div>
             </div>
-
         </div>
     </section>
 @endsection
 
+@section('css')
+    <style>
+        #play{
+            margin: 40%;
+        }
+        @media only screen and (max-width: 700px) {
+              #play{
+            margin: 20%;
+        }
+
+    </style>
+@endsection
+
 @section('content')
+
+
 
   <!-- Seccion video -->
       <section class="pixel-feature-area d-flex flex-wrap">
@@ -42,8 +52,6 @@
 
               <div class="jumbotron jumbotron-fluid" >
                 <div class="container">
-
-
                     <p> Seducida por su arte, danzas, trajes típicos, fiestas locales y religiosas, la Escuela de Samba Unidos de Vila María eligió representar al Perú en el Carnaval São Paulo 2019.<p>
                 <p>
                    Se trata de la primera vez que el Perú estará ante los ojos del mundo y tendrá presencia en la fiesta más famosa del planeta.
@@ -61,7 +69,7 @@
 
             <a href="#">
 
-                <img class="img-responsive" id="play" src="img/logo-img/icono.png" alt="" >
+                <img class="img-responsive" id="play" src="{{ url('Carnaval1/img/logo-img/icono.png') }}" alt="" >
             </a>
 
         </div>
@@ -243,23 +251,23 @@
     <section class="contact-area section-padding-100">
       <style type="text/css">
           .p_120 {
-  padding-top: 120px;
-  padding-bottom: 120px; }
+              padding-top: 120px;
+              padding-bottom: 120px; }
 
-.clients_logo_area {
-  background: #fafcff; }
-  .clients_logo_area .clients_slider .item {
-    text-align: center; }
-    .clients_logo_area .clients_slider .item img {
-      width: auto;
-      text-align: center;
-      display: block;
-      margin: auto;
-      line-height: 70px;
-      opacity: .5;
-      transition: all 300ms linear 0s; }
-    .clients_logo_area .clients_slider .item:hover img {
-      opacity: 1; }
+            .clients_logo_area {
+              background: #fafcff; }
+              .clients_logo_area .clients_slider .item {
+                text-align: center; }
+                .clients_logo_area .clients_slider .item img {
+                  width: auto;
+                  text-align: center;
+                  display: block;
+                  margin: auto;
+                  line-height: 70px;
+                  opacity: .5;
+                  transition: all 300ms linear 0s; }
+                .clients_logo_area .clients_slider .item:hover img {
+                  opacity: 1; }
       </style>
 
 

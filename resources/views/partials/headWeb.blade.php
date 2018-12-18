@@ -21,3 +21,6 @@
         <link  rel="stylesheet" type="text/css" href="{{ url('Carnaval1/css/animate.css') }}">
 
     </head>
+
+    @yield('css')
+

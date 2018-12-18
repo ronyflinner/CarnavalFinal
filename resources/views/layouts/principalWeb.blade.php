@@ -26,7 +26,9 @@
         <a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
     </div>
 
-        <script src="{{ url('Carnaval1/js/jquery/jquery-2.2.4.min.js') }}"></script>
+
+    <!-- WEB -->
+     <script src="{{ url('Carnaval1/js/jquery/jquery-2.2.4.min.js') }}"></script>
     <!-- Popper js -->
     <script src="{{ url('Carnaval1/js/bootstrap/popper.min.js')}}"></script>
     <!-- Bootstrap js -->
@@ -45,57 +47,52 @@
 <script>
     var d = new Date(new Date().getTime() + 48 * 120 * 120 * 3000);
 
-    //A demo of jQuery countdown
-   $('#demo-jquery-countdown').simplyCountdown({
-        year: d.getFullYear(),
-        month: d.getMonth() + 1,
-        day: d.getDate(),
-        enableUtc: false
-    });
-</script>
+            //A demo of jQuery countdown
+           $('#demo-jquery-countdown').simplyCountdown({
+                year: 2019,
+                month: 3,
+                day: 2,
+                enableUtc: true
+            });
 
-
- <script type="text/javascript">
-    $(document).ready(function() {
+            $(document).ready(function() {
 
 
 
-    $("#news-slider").owlCarousel({
-        items : 2,
-        itemsDesktop : [1199,2],
-        itemsMobile : [600,1],
-        pagination :true,
-        autoPlay : true,
-        loop:true,
-        responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:2
-        }
-    }
-    });
+            $("#news-slider").owlCarousel({
+                items : 2,
+                itemsDesktop : [1199,2],
+                itemsMobile : [600,1],
+                pagination :true,
+                autoPlay : true,
+                loop:true,
+                responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:2
+                }
+            }
+            });
 
-
-
-        $('.clients_slider').owlCarousel({
-    loop:true,
-    margin:10,
-    nav:false,
-    dots: false,
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:3
-        },
-        1000:{
-            items:5
-        }
-    }
-});
+            $('.clients_slider').owlCarousel({
+                loop:true,
+                margin:10,
+                nav:false,
+                dots: false,
+                responsive:{
+                    0:{
+                        items:1
+                    },
+                    600:{
+                        items:3
+                    },
+                    1000:{
+                        items:5
+                    }
+                }
+            });
 
         });
 
