@@ -208,7 +208,7 @@
                 <div class="post-slide visual wow fadeInUp" id="noticiasp">
                     <div class="post-img">
                         <a href="#">
-                            <img src="img/puesta/3-P.png" class="img-responsive" alt="Cinque Terre">
+                            <img src="{{ url('Carnaval1/img/puesta/3-P.png') }}" class="img-responsive" alt="Cinque Terre">
                             <div class="post-date">
                                 <span class="date">13</span>
                                 <span class="month">jan</span>

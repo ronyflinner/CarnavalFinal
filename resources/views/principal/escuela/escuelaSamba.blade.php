@@ -22,14 +22,13 @@
 <div id="fh5co-contact" style="background-image: url({{ url('carnaval/images/bg/st-2.png') }});">
 		<div class="container text-justify">
 			  <div class="row" >
-				<div class="col-md-6  animate-box "  ><br><br><br>
-					<img class="img-responsive img-thumbnail- bounce-in " src="{{url('carnaval/images/pag/historia_escuela/img_600x400.png')}}">
+				<div class="col-md-6  animate-box"  ><br><br><br>
+					<img class="img-responsive img-thumbnail- bounce-in " src="{{url('Carnaval1/img/pag/historia_escuela/img_600x400.png')}}">
 				</div>
 				<div class="col-md-6 animate-box">
 
-					 <h2><img src="{{url('carnaval/images/text/historiasao.png')}}" class="img-responsive shake-slow" width="200px" height="205px"></h2>
-
-
+					 <h2 class="text-center"><img src="{{url('Carnaval1/img/text-img/historiasao.png')}}" class="img-responsive shake-slow" width="200px" height="205px"></h2>
+					 <div class="mb-4"></div>
 					<p>Unidos de Vila María es una de las escuelas de samba más importantes y prestigiosas de Brasil, coronada cuatro veces campeona del Carnaval de São Paulo.</p>
 					<p>
 					Sus inusitadas alegorías y diversidad temática, que representan las costumbres, la religión, la belleza de paisajes y las culturas de diversos países en el mundo, son parte de su esencia.
