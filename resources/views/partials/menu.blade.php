@@ -44,7 +44,7 @@
                                     <li><a href="portfolio.html">Escuela Unidos de Vila Maria</a>
                                         <ul class="dropdown">
                                             <li><a href="{{ route('escuela.historiaSamba') }}">Historia</a></li>
-                                            <li><a href="{{ url('escuela.LogrosReconocimiento') }}">Logros</a></li>
+                                            <li><a href="{{ route('escuela.LogrosReconocimiento') }}">Logros</a></li>
                                         </ul>
                                     </li>
                                     <li><a href="portfolio.html">Perú en el Carnaval</a>
@@ -71,8 +71,8 @@
                                             <li><a href="about.html">Videos</a></li>
                                         </ul>
                                     </li>
-                                     <li><a href="index.html">Fechas &nbsp;</a></li>
-                                    <li><a href="contact.html">Contacto</a></li>
+                                     <li><a href="{{ route('carnaval.fechaRuta') }}">Fechas &nbsp;</a></li>
+                                    <li><a href="{{ route('contacto') }}">Contacto</a></li>
                                 </ul>
 
 

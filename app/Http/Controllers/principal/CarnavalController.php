@@ -27,7 +27,7 @@ class CarnavalController extends Controller {
 		return view('principal.SanBodromo');
 	}
 	public function fechaRuta() {
-		return view('principal.carnavalFecha');
+		return view('principal.fecha.carnavalFecha');
 	}
 	public function escuelaSamba() {
 		return view('principal.escuela.escuelaSamba');
@@ -104,7 +104,7 @@ class CarnavalController extends Controller {
 		return view('principal.video');
 	}
 	public function contacto() {
-		return view('principal.contacto');
+		return view('principal.contacto.contacto');
 	}
 
 	/*Trait*/

@@ -1,30 +1,21 @@
 @extends('layouts.principalWeb')
 
 @section('banner')
-<aside id="fh5co-hero">
-		<div class="flexslider">
-			<ul class="slides">
-		   	<li style="background-image: url({{ url('carnaval/images/bg/logrosReconocimientos.jpg') }});">
-		   		<div class="overlay-gradient"></div>
-		   		<div class="container">
-		   			<div class="row">
-			   			<div class="col-md-8 col-md-offset-2 text-center slider-text">
-			   				<div class="slider-text-inner">
-			   					<h1 class="heading-section">Logros y Reconocimientos</h1>
-
-			   				</div>
-			   			</div>
-			   		</div>
-		   		</div>
-		   	</li>
-		  	</ul>
-	  	</div>
-	</aside>
+		 <!-- ##### Breadcrumb Area Start ##### -->
+    <section class="breadcrumb-area  jarallax" id="bane" style="background-image: url({{ url('Carnaval1/img/bg-img/logrosReconocimientos.jpg') }});">
+        <div class="container-fluid h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12">
+                    <div class="breadcrumb-content wow tada">
+                        <h1 class="heading-section" style="color:white">Logros y Reconocimientos</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 @endsection
 
 @section('content')
-<div id="fh5co-contact" style="background-image: url({{ url('carnaval/images/bg/st-2.png') }});">
-		<div class="container ">
 
 			<style type="text/css">
 				a{text-decoration:none}
@@ -160,121 +151,129 @@
 
 
 			</style>
-			<div class="row animate-box">
-                <div class="col-md-6 col-md-offset-3 text-center fh5co-heading">
-                    <p>A lo largo de 60 años, la escuela Unidos de Vila Maria ha sido merecedora de diversos logros y reconocimientos cautivando a millones de personas en el mundo. Desde su creación, ha puesto en escena tramas de diversas temáticas entre los que destacan los siguientes: </p>
-                </div>
-            </div>
 
-              <div class="row animate-box">
-                <div class="col-md-12">
-                    <div class="main-timeline8">
-                        <div class="timeline animate-box">
-                            <span class="timeline-icon"></span>
-                            <span class="year">2019</span>
-                            <div class="timeline-content">
-                                <p class="description">
-                                    La escuela homenajeará al Perú con el tema "En las alas del gran pájaro, el vuelo de Vila María al Imperio del Sol". Para el desarrollo de la historia la escuela trajo de vuelta al carnavalesco Alexandre Louzada y a Cristiano Bara.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="timeline animate-box">
-                            <span class="timeline-icon"></span>
-                            <span class="year">2018</span>
-                            <div class="timeline-content">
-                                <p class="description">
-                                    Representó la cultura mexicana, con personajes mayas y aztecas, el arte de Frida Kahlo, rindió un homenaje a Roberto Bolaños y personajes como el Chavo y el Chapulin Colorado.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="timeline animate-box">
-                            <span class="timeline-icon"></span>
-                            <span class="year">2017</span>
-                            <div class="timeline-content">
-                                <p class="description" >
-                                    La escuela desfiló con el tema del tercer centenario de la estatua de la aparición de la Virgen en el río Paraíba. Con el respaldo de la iglesia, la escuela se comprometió a cumplir con requisitos como: no permitir la desnudez, no hablar del sincretismo religioso y permitir la supervisión de la Arquidiócesis de San Pablo durante todo el proceso. El tema fue muy bien recibido por la comunidad y la gran mayoría de los devotos obteniendo el 7º lugar en la clasificación general.
-
-                                </p>
-                            </div>
-                        </div>
-                        <div class="timeline animate-box " style="margin-top: 50px;">
-                            <span class="timeline-icon"></span>
-                            <span class="year">2016</span>
-                            <div class="timeline-content">
-                                <p class="description">
-                                    Se honró la isla de Ilhabela con el tema: "El pueblo famoso es más Bela, Ilhabela fantasía". Hizo un desfile sofisticado, técnico e impecable garantizando un 5º Lugar.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="timeline animate-box ">
-                            <span class="timeline-icon"></span>
-                            <span class="year">2015</span>
-                            <div class="timeline-content">
-
-                                <p class="description">
-                                    Se desarrolló la trama "¡Sólo los diamantes son eternos en la química divina!" del carnavalesco Lucas Pinto. La escuela terminó en el 10 ° lugar, permaneciendo en la elite del carnaval paulista.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="timeline animate-box">
-                            <span class="timeline-icon"></span>
-                            <span class="year">2014</span>
-                            <div class="timeline-content">
-                                <p class="description">
-                                    Vila María mostró la historia de los juguetes "En mis 60 años de alegría - Soy Vila Maria, y hago la fiesta rescatando del pasado juguetes del tiempo de niño.” Fue la campeona del grupo de acceso, obteniendo la puntuación máxima de 270 puntos, volviendo así al grupo especial del carnaval en 2015.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="timeline animate-box">
-                            <span class="timeline-icon"></span>
-                            <span class="year">2013</span>
-                            <div class="timeline-content">
-                                <p class="description">
-                                   La trama giró en torno al 50 aniversario de la inmigración coreana en Brasil. El desfile fue muy lujoso y la escuela fue cotizada como una de las favoritas.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="timeline animate-box">
-                            <span class="timeline-icon"></span>
-                            <span class="year">2012</span>
-                            <div class="timeline-content">
-                                <p class="description">
-                                   La escuela desfiló 'La Fuerza Infinita de la Creación - Vila Maria Feada a Mano', logrando el quinto lugar, a cargo del carnavalesco experimentado Chico Spinosa.
-                                </p>
-                            </div>
-                        </div>
-                         <div class="timeline animate-box">
-                            <span class="timeline-icon"></span>
-                            <span class="year">2011</span>
-                            <div class="timeline-content">
-                                <p class="description">
-                                  La escuela presentó la trama "La industria que manipula el hierro, es la madre de todas las demás”, de autoría del carnavalesco Fábio Borges. Sus grandes proporciones alcanzó el límite máximo de altura del Sambódromo del Anhembi.
+			<section id="fh5co-contact" style="background-image: url({{ url('Carnaval1/img/bg-img/st-2.png') }});">
 
 
-                                </p>
-                            </div>
-                        </div>
-                         <div class="timeline animate-box">
-                            <span class="timeline-icon"></span>
-                            <span class="year">2010</span>
-                            <div class="timeline-content">
-                                <p class="description">
-                                  "Teatro Amazonas - Manaus en el escenario", escrita por Fabio Borges, logró el tercer lugar detrás de la sorprendente Tucuruvi y de la campeona Vai-Vai.
-                                </p>
-                            </div>
-                        </div>
+			<div class="container ">
+				<br>
+				<br>
+
+				<div class="row wow bounceInUp">
+	                <div class="col-md-12  text-center ">
+	                    <p>A lo largo de 60 años, la escuela Unidos de Vila Maria ha sido merecedora de diversos logros y reconocimientos cautivando a millones de personas en el mundo. Desde su creación, ha puesto en escena tramas de diversas temáticas entre los que destacan los siguientes: </p>
+	                </div>
+	            </div>
+
+	              <div class="row animate-box">
+	                <div class="col-md-12">
+	                    <div class="main-timeline8">
+	                        <div class="timeline wow bounceInUp">
+	                            <span class="timeline-icon"></span>
+	                            <span class="year">2019</span>
+	                            <div class="timeline-content">
+	                                <p class="description">
+	                                    La escuela homenajeará al Perú con el tema "En las alas del gran pájaro, el vuelo de Vila María al Imperio del Sol". Para el desarrollo de la historia la escuela trajo de vuelta al carnavalesco Alexandre Louzada y a Cristiano Bara.
+	                                </p>
+	                            </div>
+	                        </div>
+	                        <div class="timeline wow bounceInUp">
+	                            <span class="timeline-icon"></span>
+	                            <span class="year">2018</span>
+	                            <div class="timeline-content">
+	                                <p class="description">
+	                                    Representó la cultura mexicana, con personajes mayas y aztecas, el arte de Frida Kahlo, rindió un homenaje a Roberto Bolaños y personajes como el Chavo y el Chapulin Colorado.
+	                                </p>
+	                            </div>
+	                        </div>
+	                        <div class="timeline wow bounceInUp">
+	                            <span class="timeline-icon"></span>
+	                            <span class="year">2017</span>
+	                            <div class="timeline-content">
+	                                <p class="description" >
+	                                    La escuela desfiló con el tema del tercer centenario de la estatua de la aparición de la Virgen en el río Paraíba. Con el respaldo de la iglesia, la escuela se comprometió a cumplir con requisitos como: no permitir la desnudez, no hablar del sincretismo religioso y permitir la supervisión de la Arquidiócesis de San Pablo durante todo el proceso. El tema fue muy bien recibido por la comunidad y la gran mayoría de los devotos obteniendo el 7º lugar en la clasificación general.
+
+	                                </p>
+	                            </div>
+	                        </div>
+	                        <div class="timeline wow bounceInUp " style="margin-top: 50px;">
+	                            <span class="timeline-icon"></span>
+	                            <span class="year">2016</span>
+	                            <div class="timeline-content">
+	                                <p class="description">
+	                                    Se honró la isla de Ilhabela con el tema: "El pueblo famoso es más Bela, Ilhabela fantasía". Hizo un desfile sofisticado, técnico e impecable garantizando un 5º Lugar.
+	                                </p>
+	                            </div>
+	                        </div>
+	                        <div class="timeline wow bounceInUp ">
+	                            <span class="timeline-icon"></span>
+	                            <span class="year">2015</span>
+	                            <div class="timeline-content">
+
+	                                <p class="description">
+	                                    Se desarrolló la trama "¡Sólo los diamantes son eternos en la química divina!" del carnavalesco Lucas Pinto. La escuela terminó en el 10 ° lugar, permaneciendo en la elite del carnaval paulista.
+	                                </p>
+	                            </div>
+	                        </div>
+	                        <div class="timeline wow bounceInUp">
+	                            <span class="timeline-icon"></span>
+	                            <span class="year">2014</span>
+	                            <div class="timeline-content">
+	                                <p class="description">
+	                                    Vila María mostró la historia de los juguetes "En mis 60 años de alegría - Soy Vila Maria, y hago la fiesta rescatando del pasado juguetes del tiempo de niño.” Fue la campeona del grupo de acceso, obteniendo la puntuación máxima de 270 puntos, volviendo así al grupo especial del carnaval en 2015.
+	                                </p>
+	                            </div>
+	                        </div>
+	                        <div class="timeline wow bounceInUp">
+	                            <span class="timeline-icon"></span>
+	                            <span class="year">2013</span>
+	                            <div class="timeline-content">
+	                                <p class="description">
+	                                   La trama giró en torno al 50 aniversario de la inmigración coreana en Brasil. El desfile fue muy lujoso y la escuela fue cotizada como una de las favoritas.
+	                                </p>
+	                            </div>
+	                        </div>
+	                        <div class="timeline wow bounceInUp">
+	                            <span class="timeline-icon"></span>
+	                            <span class="year">2012</span>
+	                            <div class="timeline-content">
+	                                <p class="description">
+	                                   La escuela desfiló 'La Fuerza Infinita de la Creación - Vila Maria Feada a Mano', logrando el quinto lugar, a cargo del carnavalesco experimentado Chico Spinosa.
+	                                </p>
+	                            </div>
+	                        </div>
+	                         <div class="timeline wow bounceInUp">
+	                            <span class="timeline-icon"></span>
+	                            <span class="year">2011</span>
+	                            <div class="timeline-content">
+	                                <p class="description">
+	                                  La escuela presentó la trama "La industria que manipula el hierro, es la madre de todas las demás”, de autoría del carnavalesco Fábio Borges. Sus grandes proporciones alcanzó el límite máximo de altura del Sambódromo del Anhembi.
+
+
+	                                </p>
+	                            </div>
+	                        </div>
+	                         <div class="timeline wow bounceInUp">
+	                            <span class="timeline-icon"></span>
+	                            <span class="year">2010</span>
+	                            <div class="timeline-content">
+	                                <p class="description">
+	                                  "Teatro Amazonas - Manaus en el escenario", escrita por Fabio Borges, logró el tercer lugar detrás de la sorprendente Tucuruvi y de la campeona Vai-Vai.
+	                                </p>
+	                            </div>
+	                        </div>
 
 
 
 
-                    </div>
-                </div>
-            </div>
-        <hr>
+	                    </div>
+	                </div>
+	            </div>
+	        <hr>
 
 
 		</div>
 
-	</div>
+		</section>
 
 	@endsection

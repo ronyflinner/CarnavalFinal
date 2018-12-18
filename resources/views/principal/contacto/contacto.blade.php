@@ -1,32 +1,29 @@
 @extends('layouts.principalWeb')
 
 @section('banner')
-<aside id="fh5co-hero">
-		<div class="flexslider">
-			<ul class="slides">
-		   	<li style="background-image: url({{ url('carnaval/images/bg/contactanos.jpg') }});">
-		   		<div class="overlay-gradient"></div>
-		   		<div class="container">
-		   			<div class="row">
-			   			<div class="col-md-8 col-md-offset-2 text-center slider-text">
-			   				<div class="slider-text-inner">
-			   					<h1 class="heading-section">Contáctanos</h1>
-
-			   				</div>
-			   			</div>
-			   		</div>
-		   		</div>
-		   	</li>
-		  	</ul>
-	  	</div>
-	</aside>
+	 <section class="breadcrumb-area jarallax" id="bane" style="background-image: url({{ url('Carnaval1/img/bg-img/contactanos.jpg') }});">
+        <div class="container-fluid h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12">
+                    <div class="breadcrumb-content wow tada">
+                        <h1 class="heading-section" style="color:white">Contáctanos</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 @endsection
 
 @section('content')
-<div id="fh5co-contact">
+<section>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
 		<div class="container">
 			<div class="row">
-				<div class="col-md-5 col-md-push-1 animate-box">
+				<div class="col-md-5 col-md-push-1 wow bounceInLeft">
 
 					<div class="fh5co-contact-info">
 						<h3>Información de Contacto</h3>
@@ -39,7 +36,7 @@
 					</div>
 
 				</div>
-				<div class="col-md-6 animate-box">
+				<div class="col-md-6 wow bounceInRight">
 					<h3>Escr&iacute;benos</h3>
 					<form action="#" id="form">
 						<div class="row form-group">
@@ -82,7 +79,7 @@
 			</div>
 
 		</div>
-	</div>
+	</section>
 
 	<script type="text/javascript">
 		$( "#form" ).submit(function( event ) {
