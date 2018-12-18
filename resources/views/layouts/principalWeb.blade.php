@@ -37,7 +37,7 @@
     <script src="{{ url('Carnaval1/js/jquery.prettyPhoto.js')}}"></script>
     <script src="{{ url('Carnaval1/js/jquery-modal-video.min.js')}}"></script>
 
-     <script src=https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js'></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
 
 
 
@@ -100,12 +100,8 @@
 
         });
 
-
-
-
-
-                var owl = $('.owl-carousel');
-                    owl.owlCarousel({ loop:true,
+                var owl1 = $('#owl-carousel');
+                    owl1.owlCarousel({ loop:true,
                     nav:false,
                     autoplay:true,
                     autoplayTimeout:3000,
@@ -122,18 +118,51 @@
                         }
                     }
                 });
-                        owl.owlCarousel();
+                    owl1.owlCarousel();
 
-                    $('.customNextBtn').click(function() {
+                $('.customNextBtn').click(function() {
 
-                        owl.trigger('next.owl.carousel');
-                    })
-                    // Go to the previous item
-                    $('.customPrevBtn').click(function() {
-                        // With optional speed parameter
-                        // Parameters has to be in square bracket '[]'
-                        owl.trigger('prev.owl.carousel', [300]);
-                    })
+                    owl1.trigger('next.owl.carousel');
+                })
+                // Go to the previous item
+                $('.customPrevBtn').click(function() {
+                    // With optional speed parameter
+                    // Parameters has to be in square bracket '[]'
+                    owl1.trigger('prev.owl.carousel', [300]);
+                });
+
+                var owl2 = $('#owl-carousel1');
+                    owl2.owlCarousel({ loop:true,
+                    nav:false,
+                    autoplay:true,
+                    autoplayTimeout:3000,
+                    autoplayHoverPause:true,
+                    responsive:{
+                        0:{
+                            items:1
+                        },
+                        600:{
+                            items:2
+                        },
+                        1000:{
+                            items:2
+                        }
+                    }
+                });
+                    owl2.owlCarousel();
+
+                $('.customNextBtn').click(function() {
+
+                    owl2.trigger('next.owl.carousel');
+                })
+                // Go to the previous item
+                $('.customPrevBtn').click(function() {
+                    // With optional speed parameter
+                    // Parameters has to be in square bracket '[]'
+                    owl2.trigger('prev.owl.carousel', [300]);
+                })
+
+
 
 
              $(".js-video-button").modalVideo({
