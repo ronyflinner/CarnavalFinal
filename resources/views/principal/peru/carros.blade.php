@@ -22,11 +22,10 @@
 @section('content')
 <div id="fh5co-contact" style="background-image: url({{ url('Carnaval1/img/bg/st-2.png') }});">
 		<div class="container text-justify">
-
 			<div class="row">
 				<div class="col-md-6 animate-box">
 					<br>
-					<h3><img src="{{url('carnaval/images/text/carros-alegóricos.png')}}" class="img-responsive shake-slow" width="300px" height="305px"></h3><p>
+					<h3><img src="{{url('Carnaval1/img/text/carros-alegóricos.png')}}" class="img-responsive shake-slow" width="300px" height="305px"></h3><p>
 					Seis gigantescos carros alegóricos, exhibirán con espectacularidad la historia ancestral del país, atractivos indiscutibles que deslumbrará a locales y extranjeros.</p><p>
 					Las dimensiones del carro alegórico principal serán de 40M de largo, 11M de ancho y 15M de altura, producción que estuvo a cargo de 50 personas entre artistas, escultores, pintores y electricistas.
 					Los carros acompañantes medirán de 10 a 30 M de largo, 11M de ancho y 15M de altura.</p>

@@ -15,23 +15,24 @@
 @endsection
 
 @section('content')
+
 <div id="fh5co-contact" style="background-image: url({{ url('Carnaval1/img/bg/st-2.png') }});">
 		<div class="container text-justify">
-
-				<div class="row animate-box">
-				<div class="col-md-6 "><img class="img-responsive img-thumbnail- bounce-in hvr-ripple-out" src="{{ url('carnaval/images/pag/puesta/musica.png') }}"></div>
-
+			<div class="row">
+				<div class="col-md-6 animate-box">
 					<br>
-					<h3><img src="{{url('Carnaval1/img/text/musica_2.png')}}" class="img-responsive shake-slow" width="200px" height="205px"></h3>
-					<p>Para esta edición, la escuela Unidos de Vila Maria ha creado un cántico dedicado especialmente para el desfile, que destaca todo el esplendor de la cultura peruana. Cantantes y músicos irán acompañados de cerca de 300 profesionales que integran la banda que dará ritmo y comparsa a la alegoría.
- 					</p>
+					<h3><img src="{{url('Carnaval1/img/text/musica_2.png')}}" class="img-responsive shake-slow" width="300px" height="305px"></h3><p>Para esta edición, la escuela Unidos de Vila Maria ha creado un cántico dedicado especialmente para el desfile, que destaca todo el esplendor de la cultura peruana. Cantantes y músicos irán acompañados de cerca de 300 profesionales que integran la banda que dará ritmo y comparsa a la alegoría.
+				 					</p>
+
 				</div>
+				<div class="col-md-6 animate-box"><img class="img-responsive img-thumbnail- bounce-in hvr-ripple-out" src="{{ url('Carnaval1/img/pag/puesta/musica.png') }}"></div>
 
-
-
+			</div>
 
 		</div>
 
 	</div>
+
+
 
 @endsection

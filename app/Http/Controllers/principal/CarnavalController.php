@@ -53,7 +53,7 @@ class CarnavalController extends Controller {
 	}
 
 	public function carros() {
-		return view('principal.puestaMarcha.carros');
+		return view('principal.peru.carros');
 	}
 
 	public function carnavalesco() {
@@ -65,7 +65,7 @@ class CarnavalController extends Controller {
 	}
 
 	public function musica() {
-		return view('principal.puestaMarcha.musica');
+		return view('principal.peru.musica');
 	}
 	public function coreografo() {
 		return view('principal.puestaMarcha.coreografia');

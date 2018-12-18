@@ -54,10 +54,10 @@
                                                 <ul class="dropdown">
                                                     <li><a href="{{ route('peru.puestaEscena.tramas') }}"  >Trama</a></li>
                                                     <li><a href="{{ route('peru.puestaEscena.vestuario') }}" >Vestuario</a></li>
-                                                    <li><a href="{{ route('peru.puestaEscena.carnavalesco') }}"">Carnavalescos</a></li>
-                                                    <li><a href="contact.html">Carros Alegóricos
+                                                    <li><a href="{{ route('peru.puestaEscena.carnavalesco') }}" >Carnavalescos</a></li>
+                                                    <li><a href="{{ route('peru.puestaEscena.carros') }}" >Carros Alegóricos
                                                 </a></li>
-                                                    <li><a href="elements.html">Música</a></li>
+                                                    <li><a href="{{ route('peru.puestaEscena.musica') }}">Música</a></li>
                                                     <li><a href="elements.html">Coreógrafia</a></li>
                                                 </ul>
                                             </li>
