@@ -33,7 +33,7 @@ class CarnavalController extends Controller {
 		return view('principal.escuela.escuelaSamba');
 	}
 	public function logrosReconocimiento() {
-		return view('principal.escuelaLogroReconococimiento');
+		return view('principal.escuela.logroReconococimiento');
 	}
 	public function resenaCarnaval() {
 		return view('principal.reseñaPeruCarnaval');

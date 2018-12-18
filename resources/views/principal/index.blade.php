@@ -168,7 +168,7 @@
 <div class="container-fluid" >
     <div class="row">
         <div class="col-md-12">
-            <div id="news-slider" class="owl-carousel">
+            <div id="owl-carousel1" class="owl-carousel">
                 <div class="post-slide visual wow fadeInUp" data-wow-delay="0.4s" id="noticiasp">
                     <div class="post-img">
                         <a href="#">

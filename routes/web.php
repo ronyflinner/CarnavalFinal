@@ -2,13 +2,13 @@
 //Route::get('/', function () { return redirect('/admin/home'); });
 
 /*Carnaval*/
-Route::get('/carnaval/historiaCarnavalSaoPaolo', 'principal\CarnavalController@HistoriaCarnavalSaoPaolo')->name('carnaval.historiaSaoPaolo');
+Route::get('/carnaval/historiaCarnavalSaoPaulo', 'principal\CarnavalController@HistoriaCarnavalSaoPaolo')->name('carnaval.historiaSaoPaolo');
 Route::get('/carnaval/sanBodromo', 'principal\CarnavalController@SanBodromo')->name('carnaval.SanBodromo');
 Route::get('/carnaval/fechaRuta', 'principal\CarnavalController@fechaRuta')->name('carnaval.fechaRuta');
 
 Route::get('/escuela/historiaEscuelaDeSamba', 'principal\CarnavalController@escuelaSamba')->name('escuela.historiaSamba');
 
-Route::get('/escuela/escuelaDeSambaLogrosReconocimiento', 'principal\CarnavalController@logrosReconocimiento')->name('escuela.LogrosReconocimiento');
+Route::get('/escuela/LogrosReconocimiento', 'principal\CarnavalController@logrosReconocimiento')->name('escuela.LogrosReconocimiento');
 
 /*RUTAS PUESTA EN ESCENA*/
 Route::get('/peru/reseñaPeruEnElCarnaval', 'principal\CarnavalController@resenaCarnaval')->name('peru.resenaCarnaval');

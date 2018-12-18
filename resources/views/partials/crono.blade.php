@@ -44,7 +44,7 @@ border: 0px solid #000000;
 
 
     </style>
-    <section   class="contact-area section-padding-100" >
+    <section   class="contact-area section-padding-100 wow zoomInUp" >
 
        <div id="fh5co-register"  data-vide-bg="mp4: {{ url('Carnaval1/img/carnaval.mp4')}}" data-vide-options="position: 0% 50%, resizing: true, height:300px" >
                 <div class="overlay"></div>
