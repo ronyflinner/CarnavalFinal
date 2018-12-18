@@ -20,7 +20,7 @@
 
 @section('content')
 
-<div id="fh5co-contact" style="background-image: url({{ url('carnaval/images/bg/st-2.png') }});">
+<div id="fh5co-contact" style="background-image: url({{ url('Carnaval1/img/bg/st-2.png') }});">
 		<div class="container text-justify">
 
 			<div class="row" >
@@ -33,7 +33,7 @@
 
 				</div>
 				<div class="col-md-6  animate-box"  >
-					<img class="img-responsive img-thumbnail- bounce-in" src="{{ url('carnaval/images/pag/sambodromo/imag_600x400.png') }}">
+					<img class="img-responsive img-thumbnail- bounce-in" src="{{ url('Carnaval1/img/pag/sambodromo/imag_600x400.png') }}">
 				</div>
 
 			</div>
@@ -41,19 +41,19 @@
 		</div>
 
 	</div>
-	<div id="fh5co-register bg-t-color"  style="background-image: url({{ url('carnaval/images/bg/st-2.png') }});" >
+	<div id="fh5co-register bg-t-color"  style="background-image: url({{ url('Carnaval1/img/bg/st-2.png') }});" >
 		<br>
 		<div class="owl-carousel owl-carousel-fullwidth">
             <div class="item animate-box">
                 <div class="team-image">
-            		<a href="{{ url('carnaval/images/pag/sambodromo/1.png') }}" data-toggle="lightbox" data-gallery="example-gallery">
-		                 <img class="img-responsive img-thumbnail bounce-in" src="{{ url('carnaval/images/pag/sambodromo/1.png') }}" alt="" width="">
+            		<a href="{{ url('Carnaval1/img/pag/sambodromo/1.png') }}" data-toggle="lightbox" data-gallery="example-gallery">
+		                 <img class="img-responsive img-thumbnail bounce-in" src="{{ url('Carnaval1/img/pag/sambodromo/1.png') }}" alt="" width="">
 		            </a>
                 </div>
             </div>
             <div class="item animate-box">
                 <div class="team-image">
-                   <a href="{{ url('carnaval/images/pag/sambodromo/2.png') }}" data-toggle="lightbox" data-gallery="example-gallery">
+                   <a href="{{ url('Carnaval1/img/pag/sambodromo/2.png') }}" data-toggle="lightbox" data-gallery="example-gallery">
 		                 <img class="img-responsive img-thumbnail bounce-in" src="{{ url('carnaval/images/pag/sambodromo/2.png') }}" alt="" width="">
 		            </a>
 

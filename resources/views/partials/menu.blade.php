@@ -37,7 +37,7 @@
                                     <li><a href="{{url('/') }}">Carnaval de São Paulo</a>
                                         <ul class="dropdown">
                                             <li><a href="{{ route('carnaval.historiaSaoPaolo') }}">Historia</a></li>
-                                            <li><a href="about.html">El Sambódromo</a></li>
+                                            <li><a href="{{ route('carnaval.SanBodromo') }}">El Sambódromo</a></li>
                                         </ul>
                                     </li>
 

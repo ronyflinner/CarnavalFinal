@@ -24,7 +24,7 @@ class CarnavalController extends Controller {
 		return view('principal.carnaval.historia_sao');
 	}
 	public function SanBodromo() {
-		return view('principal.SanBodromo');
+		return view('principal.carnaval.SanBodromo');
 	}
 	public function fechaRuta() {
 		return view('principal.carnavalFecha');

@@ -6,7 +6,9 @@
 
 
 </style>
- <section class="breadcrumb-area  jarallax" id="bane" style="background-image: url({{ url('Carnaval1/img/bg/historiaSao.jpg') }});">
+
+
+ <section class="breadcrumb-area  jarallax " id="bane" style="background-image: url({{ url('Carnaval1/img/bg/historiaSao.jpg') }});">
         <div class="container-fluid h-100">
             <div class="row h-100 align-items-center">
                 <div class="col-12">
@@ -31,7 +33,7 @@
 	<div id="fh5co-contact" style="background-image: url({{ url('Carnaval1/img/bg/st-2.png') }});">
 		<div class="container text-justify">
 			  <div class="row" >
-				<div class="col-md-6  animate-box"  >
+				<div class="col-md-6  animate-box wow bounceInLeft" data-wow-delay="0.4s" >
 
 
 							<img class="img-responsive img-thumbnail- bounce-in" src="{{ url('Carnaval1/img/pag/sambodromo/historia_sao1.png') }}"  >
@@ -40,7 +42,7 @@
 
 
 				</div>
-				<div class="col-md-6 animate-box">
+				<div class="col-md-6 animate-box wow bounceInRight" data-wow-delay="0.4s">
 					 <h2><img src="{{url('Carnaval1/img/text/historiasao.png')}}" class="img-responsive shake-slow" width="200px" height="205px"></h2>
 
 					<p>
