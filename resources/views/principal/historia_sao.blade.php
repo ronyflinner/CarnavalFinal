@@ -4,7 +4,7 @@
 <aside id="fh5co-hero">
 		<div class="flexslider">
 			<ul class="slides">
-		   	<li style="background-image: url(images/bg/historiaSao.jpg);">
+		   	<li style="background-image: url({{ url('Carnaval1/img/bg/historiaSao.jpg') }});">
 		   		<div class="overlay-gradient"></div>
 		   		<div class="container">
 		   			<div class="row">

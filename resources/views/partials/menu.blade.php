@@ -34,10 +34,10 @@
                             <div class="classynav">
                                 <ul>
                                     <li><a href="{{ url('/') }}">Inicio &nbsp; &nbsp;</a></li>
-                                    <li><a href="portfolio.html">Carnaval de São Paulo</a>
+                                    <li><a href="{{url('/') }}">Carnaval de São Paulo</a>
                                         <ul class="dropdown">
-                                            <li><a href="index.html">Historia</a></li>
-                                            <li><a href="about.html">El Sambódromo</a></li>
+                                            <li><a href="{{ route('carnaval.historiaSaoPaolo') }}">Historia</a></li>
+                                            <li><a href="{{ route('carnaval.SanBodromo') }}">El Sambódromo</a></li>
                                         </ul>
                                     </li>
 
@@ -49,15 +49,15 @@
                                     </li>
                                     <li><a href="portfolio.html">Perú en el Carnaval</a>
                                         <ul class="dropdown">
-                                            <li><a href="index.html">Reseña</a></li>
-                                            <li><a href="portfolio.html">Puesta en escena</a>
+                                            <li><a href="{{ route('peru.resenaCarnaval') }}">Reseña</a></li>
+                                            <li><a href="{{ route('peru.puestaEscena') }}" >Puesta en escena</a>
                                                 <ul class="dropdown">
-                                                    <li><a href="about.html">Trama</a></li>
-                                                    <li><a href="services.html">Vestuario</a></li>
-                                                    <li><a href="portfolio.html">Carnavalescos</a></li>
-                                                    <li><a href="contact.html">Carros Alegóricos
+                                                    <li><a href="{{ route('peru.puestaEscena.tramas') }}"  >Trama</a></li>
+                                                    <li><a href="{{ route('peru.puestaEscena.vestuario') }}" >Vestuario</a></li>
+                                                    <li><a href="{{ route('peru.puestaEscena.carnavalesco') }}" >Carnavalescos</a></li>
+                                                    <li><a href="{{ route('peru.puestaEscena.carros') }}" >Carros Alegóricos
                                                 </a></li>
-                                                    <li><a href="elements.html">Música</a></li>
+                                                    <li><a href="{{ route('peru.puestaEscena.musica') }}">Música</a></li>
                                                     <li><a href="elements.html">Coreógrafia</a></li>
                                                 </ul>
                                             </li>

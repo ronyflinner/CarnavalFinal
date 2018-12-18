@@ -21,10 +21,10 @@ class CarnavalController extends Controller {
 
 	}
 	public function HistoriaCarnavalSaoPaolo() {
-		return view('principal.historia_sao');
+		return view('principal.carnaval.historia_sao');
 	}
 	public function SanBodromo() {
-		return view('principal.SanBodromo');
+		return view('principal.carnaval.SanBodromo');
 	}
 	public function fechaRuta() {
 		return view('principal.fecha.carnavalFecha');
@@ -36,7 +36,7 @@ class CarnavalController extends Controller {
 		return view('principal.escuela.logroReconococimiento');
 	}
 	public function resenaCarnaval() {
-		return view('principal.reseñaPeruCarnaval');
+		return view('principal.peru.reseñaPeruCarnaval');
 	}
 
 	/*PUESTA EN ESCENA*/
@@ -45,7 +45,7 @@ class CarnavalController extends Controller {
 	}
 	/*SUB*/
 	public function tramas() {
-		return view('principal.puestaMarcha.tramas');
+		return view('principal.peru.tramas');
 	}
 
 	public function alegorias() {
@@ -53,19 +53,19 @@ class CarnavalController extends Controller {
 	}
 
 	public function carros() {
-		return view('principal.puestaMarcha.carros');
+		return view('principal.peru.carros');
 	}
 
 	public function carnavalesco() {
-		return view('principal.puestaMarcha.carnavalesco');
+		return view('principal.peru.carnavalesco');
 	}
 
 	public function vestuario() {
-		return view('principal.puestaMarcha.vestuarios');
+		return view('principal.peru.vestuarios');
 	}
 
 	public function musica() {
-		return view('principal.puestaMarcha.musica');
+		return view('principal.peru.musica');
 	}
 	public function coreografo() {
 		return view('principal.puestaMarcha.coreografia');

@@ -1,29 +1,26 @@
 @extends('layouts.principalWeb')
 @section('banner')
-<aside id="fh5co-hero">
-	<div class="flexslider">
-		<ul class="slides">
-	   	<li style="background-image: url({{ url('carnaval/images/bg/carrosalegóricos.jpg') }});">
-	   		<div class="overlay-gradient"></div>
-	   		<div class="container">
-	   			<div class="row">
-		   			<div class="col-md-8 col-md-offset-2 text-center slider-text">
-		   				<div class="slider-text-inner">
-		   					<h1 class="heading-section">Puesta en Escena <br><b>Carros Alegóricos</b></h1>
 
-		   				</div>
-		   			</div>
-		   		</div>
-	   		</div>
-	   	</li>
-	  	</ul>
-  	</div>
-</aside>
+
+ <section class="breadcrumb-area  jarallax" id="bane" style="background-image: url({{ url('Carnaval1/img/bg/carrosalegóricos.jpg') }});">
+        <div class="container-fluid h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12">
+                    <div class="breadcrumb-content wow tada">
+                        <h1 class="heading-section" style="color:white">Puesta en Escena <br><b>Tramas</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
 @endsection
 
 
 @section('content')
-<div id="fh5co-contact" style="background-image: url({{ url('carnaval/images/bg/st-2.png') }});">
+<div id="fh5co-contact" style="background-image: url({{ url('Carnaval1/img/bg/st-2.png') }});">
 		<div class="container text-justify">
 
 			<div class="row">
@@ -35,7 +32,7 @@
 					Los carros acompañantes medirán de 10 a 30 M de largo, 11M de ancho y 15M de altura.</p>
 
 				</div>
-				<div class="col-md-6 animate-box"><img class="img-responsive img-thumbnail- bounce-in hvr-ripple-out" src="{{ url('carnaval/images/pag/puesta/carrosalegóricos.png') }}"></div>
+				<div class="col-md-6 animate-box"><img class="img-responsive img-thumbnail- bounce-in hvr-ripple-out" src="{{ url('Carnaval1/img/pag/puesta/carrosalegóricos.png') }}"></div>
 
 			</div>
 

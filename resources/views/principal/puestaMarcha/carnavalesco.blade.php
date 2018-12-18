@@ -1,32 +1,25 @@
 @extends('layouts.principalWeb')
 @section('banner')
-<aside id="fh5co-hero">
-	<div class="flexslider">
-		<ul class="slides">
-	   	<li style="background-image: url({{ url('carnaval/images/bg/carnavalescos.jpg') }});">
-	   		<div class="overlay-gradient"></div>
-	   		<div class="container">
-	   			<div class="row">
-		   			<div class="col-md-8 col-md-offset-2 text-center slider-text">
-		   				<div class="slider-text-inner">
-		   					<h1 class="heading-section">Puesta en Escena <br> <b>Carnavalescos</b></h1>
+ <section class="breadcrumb-area  jarallax" id="bane" style="background-image: url({{ url('Carnaval1/img/carnavalescos.jpg') }});">
+        <div class="container-fluid h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12">
+                    <div class="breadcrumb-content wow tada">
+                        <h1 class="heading-section" style="color:white">Puesta en Escena <br> <b>Carnavalescos</b></h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-		   				</div>
-		   			</div>
-		   		</div>
-	   		</div>
-	   	</li>
-	  	</ul>
-  	</div>
-</aside>
 @endsection
 
 @section('content')
-<div id="fh5co-contact" style="background-image: url({{ url('carnaval/images/bg/st-2.png') }});">
+<div id="fh5co-contact" style="background-image: url({{ url('Carnaval1/img/bg/st-2.png') }});">
 		<div class="container text-justify">
 			<div class="row animate-box">
                 <div class="col-md-8 col-md-offset-2 text-center h5co-heading">
-					<img src="{{url('carnaval/images/text/carnavalescos.png')}}" class="img-responsive shake-slow" width="300px" height="305px"><br>
+					<img src="{{url('Carnaval1/img/text/carnavalescos.png')}}" class="img-responsive shake-slow" width="300px" height="305px"><br>
                     <p class=" ">
 					La puesta en escena de Perú en el Carnaval estará a cargo de dos destacados Carnavalescos, Cristiano Bara y Alexandre Louzada, especialistas en desarrollo de montaje de desfile en Brasil.<p>
                 </div>
@@ -49,7 +42,7 @@
 
 				</div>
 				<div class="col-md-6 animate-box">
-					<img class="img-responsive img-thumbnail- bounce-in hvr-ripple-out" src="{{ url('carnaval/images/pag/puesta/p2.jpeg') }}">
+					<img class="img-responsive img-thumbnail- bounce-in hvr-ripple-out" src="{{ url('Carnaval1/img/pag/puesta/p2.jpeg') }}">
 				</div>
 			</div>
 			<div class="row">
@@ -57,7 +50,7 @@
 			</div>
 			<div class="row">
 				<div class="col-md-6 animate-box">
-					<img class="img-responsive img-thumbnail- bounce-in hvr-ripple-out" src="{{ url('carnaval/images/pag/puesta/p1.jpeg') }}">
+					<img class="img-responsive img-thumbnail- bounce-in hvr-ripple-out" src="{{ url('Carnaval1/img/pag/puesta/p1.jpeg') }}">
 				</div>
 				<div class="col-md-6 animate-box">
 					<b>Títulos</b>
