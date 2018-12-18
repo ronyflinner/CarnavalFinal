@@ -26,21 +26,7 @@
     </section>
 @endsection
 
-@section('css')
-    <style>
-        #play{
-            margin: 40%;
-        }
-        @media only screen and (max-width: 700px) {
-              #play{
-            margin: 20%;
-        }
-
-    </style>
-@endsection
-
 @section('content')
-
 
 
   <!-- Seccion video -->
@@ -242,60 +228,6 @@
 </div>
 
 </section>
-
-    @endsection
-
-
-@section('seccion_d')
-
-    <section class="contact-area section-padding-100">
-      <style type="text/css">
-          .p_120 {
-              padding-top: 120px;
-              padding-bottom: 120px; }
-
-            .clients_logo_area {
-              background: #fafcff; }
-              .clients_logo_area .clients_slider .item {
-                text-align: center; }
-                .clients_logo_area .clients_slider .item img {
-                  width: auto;
-                  text-align: center;
-                  display: block;
-                  margin: auto;
-                  line-height: 70px;
-                  opacity: .5;
-                  transition: all 300ms linear 0s; }
-                .clients_logo_area .clients_slider .item:hover img {
-                  opacity: 1; }
-      </style>
-
-
-   <!--================Clients Logo Area =================-->
-        <section class="clients_logo_area p_120 wow fadeInUp" data-wow-delay="0.4s"style="background-image: url({{ url('Carnaval1/img/bg-img/st-2.png') }});">
-            <div class="container" >
-                <div class="clients_slider owl-carousel">
-                    <div class="item">
-                        <img src="{{ url('Carnaval1/img/clients-logo/c-logo-1.png') }}" alt="">
-                    </div>
-                    <div class="item">
-                        <img src="{{ url('Carnaval1/img/clients-logo/c-logo-2.png') }}" alt="">
-                    </div>
-                    <div class="item">
-                        <img src="{{ url('Carnaval1/img/clients-logo/c-logo-3.png') }}" alt="">
-                    </div>
-                    <div class="item">
-                        <img src="{{ url('Carnaval1/img/clients-logo/c-logo-4.png') }}" alt="">
-                    </div>
-                    <div class="item">
-                        <img src="{{ url('Carnaval1/img/clients-logo/c-logo-5.png') }}" alt="">
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--================End Clients Logo Area =================-->
-    </section>
 @endsection
-
 
 

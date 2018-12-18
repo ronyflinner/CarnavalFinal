@@ -8,24 +8,16 @@
 
     <div id="page">
         @include('partials.menu')
-
         @yield('banner')
-
         @yield('content')
-
         @include('partials.crono')
-
         @yield('seccion_b')
         @yield('seccion_c')
         @yield('seccion_d')
-
+        @include('partials.sponsor')
         @include('partials.footer')
-    </div>
 
-    <div class="gototop js-top">
-        <a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
     </div>
-
 
     <!-- WEB -->
      <script src="{{ url('Carnaval1/js/jquery/jquery-2.2.4.min.js') }}"></script>
@@ -42,9 +34,9 @@
     <script src="{{ url('Carnaval1/js/jquery.vide.min.js')}}"></script>
     <script src="{{ url('Carnaval1/js/simplyCountdown.js')}}"></script>
 
+    <script>
+    window._token = '{{ csrf_token() }}';
 
-
-<script>
     var d = new Date(new Date().getTime() + 48 * 120 * 120 * 3000);
 
             //A demo of jQuery countdown
@@ -97,6 +89,8 @@
         });
 
     </script>
+
+    @yield('Javascripts')
 
 
     </body>

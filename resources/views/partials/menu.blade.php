@@ -15,7 +15,7 @@
                     <nav class="classy-navbar justify-content-between" id="pixelNav">
 
                         <!-- Nav brand -->
-                        <a href="index.html" class="nav-brand" data-wow-delay="0.3s"><img src="Carnaval1/img/logo-img/logo.png" width="160px" height="90px" alt=""></a>
+                        <a href="index.html" class="nav-brand" data-wow-delay="0.3s"><img src="{{ url('Carnaval1/img/logo-img/logo.png') }}" width="160px" height="90px" alt=""></a>
 
                         <!-- Navbar Toggler -->
                         <div class="classy-navbar-toggler">
@@ -43,7 +43,7 @@
 
                                     <li><a href="portfolio.html">Escuela Unidos de Vila Maria</a>
                                         <ul class="dropdown">
-                                            <li><a href="index.html">Historia</a></li>
+                                            <li><a href="{{ route('escuela.historiaSamba') }}">Historia</a></li>
                                             <li><a href="about.html">El Sambódromo</a></li>
                                         </ul>
                                     </li>

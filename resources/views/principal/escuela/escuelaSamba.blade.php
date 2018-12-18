@@ -1,30 +1,24 @@
 @extends('layouts.principalWeb')
 
 @section('banner')
-	<aside id="fh5co-hero">
-		<div class="flexslider">
-			<ul class="slides">
-		   	<li style="background-image: url({{ url('carnaval/images/bg/historiadelaescuela.jpg') }});">
-		   		<div class="overlay-gradient"></div>
-		   		<div class="container">
-		   			<div class="row">
-			   			<div class="col-md-8 col-md-offset-2 text-center slider-text">
-			   				<div class="slider-text-inner">
-			   					<h1 class="heading-section">Historia de la <br>Escuela de Samba
-									 Unidos de Vila María
-			   					</h1>
 
-			   				</div>
-			   			</div>
-			   		</div>
-		   		</div>
-		   	</li>
-		  	</ul>
-	  	</div>
-	</aside>
+    <!-- ##### Breadcrumb Area Start ##### -->
+    <section class="breadcrumb-area  jarallax" id="bane" style="background-image: url({{ url('Carnaval1/img/bg-img/historiadelaescuela.jpg') }});">
+        <div class="container-fluid h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12">
+                    <div class="breadcrumb-content wow tada">
+                        <h1 class="heading-section" style="color:white">Historia del Carnaval de<br> <b>São Paulo</b></h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 @endsection
 
 @section('content')
+
+
 <div id="fh5co-contact" style="background-image: url({{ url('carnaval/images/bg/st-2.png') }});">
 		<div class="container text-justify">
 			  <div class="row" >

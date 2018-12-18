@@ -22,5 +22,61 @@
 
     </head>
 
-    @yield('css')
+    <style type="text/css">
+        .breadcrumb-area{
+
+             height: 500px
+        }
+        .breadcrumb-area::after  {
+               background-color: rgba(140, 140, 140, 0.39);
+        }
+        .row {
+                margin-right: 0px;
+                margin-left: 0px;
+                padding-top: 20px;
+        }
+        .heading-section{
+            padding-top: 40px;
+        }
+
+        /*Spnsor*/
+        .p_120 {
+          padding-top: 120px;
+          padding-bottom: 120px; }
+
+        .clients_logo_area {
+          background: #fafcff; }
+          .clients_logo_area .clients_slider .item {
+            text-align: center; }
+            .clients_logo_area .clients_slider .item img {
+              width: auto;
+              text-align: center;
+              display: block;
+              margin: auto;
+              line-height: 70px;
+              opacity: .5;
+              transition: all 300ms linear 0s; }
+            .clients_logo_area .clients_slider .item:hover img {
+              opacity: 1; }
+
+
+                 #play{
+            margin: 40%;
+        }
+        @media only screen and (max-width: 700px) {
+              #play{
+            margin: 20%;
+        }
+
+            /*botn*/
+            @section('css')
+    <style>
+
+
+    </style>
+@endsection
+
+    </style>
+
+
 
