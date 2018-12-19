@@ -34,7 +34,7 @@
 
          <!-- Feature Content -->
         <div class="feature-content ">
-          <img src="{{ url('Carnaval1/img/bg/text.png') }}">
+          <img src="{{ url('Carnaval1/img/bg-img/text.png') }}">
         </div>
         <!-- Feature Thumbnail -->
         <div class="feature-thumbnail bg-img jarallax text-center" style="background-image: url({{ url('Carnaval1/img/bg-img/img-video.png') }});">
@@ -73,7 +73,7 @@
         <div class="pixel-portfolio" style="background-image: url({{ url('Carnaval1/img/bg-img/st-2.png') }});">
 
             <!-- Single gallery Item -->
-            <div class="single_gallery_item visual wow fadeInUp" data-wow-delay="0.2s">
+            <div class="single_gallery_item visual wow bounceInLeft" data-wow-delay="0.2s">
                 <img src="{{ url('Carnaval1/img/puesta/1-P.png') }}" alt="">
                 <div class="hover-content text-center d-flex align-items-center justify-content-center">
                     <div class="hover-text">
@@ -85,7 +85,7 @@
             </div>
 
             <!-- Single gallery Item -->
-            <div class="single_gallery_item add wow fadeInUp" data-wow-delay="0.4s">
+            <div class="single_gallery_item add wow flipInX" data-wow-delay="0.4s">
                 <img src="{{ url('Carnaval1/img/puesta/3-P.png') }}" alt="">
                 <div class="hover-content text-center d-flex align-items-center justify-content-center">
                     <div class="hover-text">
@@ -96,7 +96,7 @@
             </div>
 
 
-            <div class="single_gallery_item web wow fadeInUp" data-wow-delay="0.6s">
+            <div class="single_gallery_item web wow bounceInRight" data-wow-delay="0.6s">
                 <img src="{{ url('Carnaval1/img/puesta/2-P.png') }}" alt="">
                 <div class="hover-content text-center d-flex align-items-center justify-content-center">
                     <div class="hover-text">
@@ -106,7 +106,7 @@
                 </div>
             </div>
 
-            <div class="single_gallery_item visual wow fadeInUp" data-wow-delay="0.2s">
+            <div class="single_gallery_item visual wow zoomInUp" data-wow-delay="0.2s">
                 <img src="{{ url('Carnaval1/img/puesta/5-P.png') }}" alt="">
                 <div class="hover-content text-center d-flex align-items-center justify-content-center">
                     <div class="hover-text">
@@ -117,7 +117,7 @@
             </div>
 
             <!-- Single gallery Item -->
-            <div class="single_gallery_item add wow fadeInUp" data-wow-delay="0.4s">
+            <div class="single_gallery_item add wow bounceInDown" data-wow-delay="0.4s">
                 <img src="{{ url('Carnaval1/img/puesta/6-P.png') }}" alt="">
                 <div class="hover-content text-center d-flex align-items-center justify-content-center">
                     <div class="hover-text">
@@ -128,8 +128,8 @@
             </div>
 
             <!-- Single gallery Item -->
-            <div class="single_gallery_item web wow fadeInUp" data-wow-delay="0.6s">
-                <img src="{{ url('Carnaval1/img/puesta/2-P.png') }}" alt="">
+            <div class="single_gallery_item web wow zoomInRight" data-wow-delay="0.6s">
+                <img src="{{ url('Carnaval1/img/puesta/4-P.png') }}" alt="">
                 <div class="hover-content text-center d-flex align-items-center justify-content-center">
                     <div class="hover-text">
                         <a href="{{ route('peru.puestaEscena.coreografo') }}" class="zoom-img"><i class="fa fa-eye" aria-hidden="true"></i></a>
@@ -171,7 +171,7 @@
                     }
                   @endphp
 
-                <div class="post-slide visual wow fadeInUp" data-wow-delay="0.4s" id="noticiasp">
+                <div class="post-slide visual wow bounceInLeft" data-wow-delay="0.4s" id="noticiasp">
                     <div class="post-img">
                         <a href='{{ $hre }}'>
                             <img src="{{ $url2 }}" class="img-responsive" alt="Cinque Terre" width="40px" height="60px">
