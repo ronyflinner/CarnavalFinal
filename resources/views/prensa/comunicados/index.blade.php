@@ -1,5 +1,4 @@
 
-
 @inject('request', 'Illuminate\Http\Request')
 @extends('layouts.app')
 
@@ -158,6 +157,7 @@
   <script type="text/javascript">
 
     $(function () {
+         alert('hola');
 
          $('div.alert').not('.alert-important').delay(3000).fadeOut(350);
 
@@ -195,4 +195,3 @@
 
 
   </script>
-@endsection
