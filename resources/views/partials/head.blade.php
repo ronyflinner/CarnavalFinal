@@ -49,5 +49,3 @@
 <link rel="stylesheet" type="text/css" href="{{ url('carnaval/css/jquery.dataTables.min.css') }}">
 
 
-
-
