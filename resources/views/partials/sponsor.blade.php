@@ -4,19 +4,19 @@
             <div class="container" >
                 <div id="owl-carousel2" class="clients_slider owl-carousel">
                     <div class="item">
-                        <img src="{{ url('Carnaval1/img/clients-logo/c-logo-1.png') }}" alt="">
+                        <img src="{{ url('Carnaval1/img/clients-logo/c-logo-2.png') }}" alt="">
                     </div>
                     <div class="item">
                         <img src="{{ url('Carnaval1/img/clients-logo/c-logo-2.png') }}" alt="">
                     </div>
                     <div class="item">
-                        <img src="{{ url('Carnaval1/img/clients-logo/c-logo-3.png') }}" alt="">
+                        <img src="{{ url('Carnaval1/img/clients-logo/c-logo-2.png') }}" alt="">
                     </div>
                     <div class="item">
-                        <img src="{{ url('Carnaval1/img/clients-logo/c-logo-4.png') }}" alt="">
+                        <img src="{{ url('Carnaval1/img/clients-logo/c-logo-2.png') }}" alt="">
                     </div>
                     <div class="item">
-                        <img src="{{ url('Carnaval1/img/clients-logo/c-logo-5.png') }}" alt="">
+                        <img src="{{ url('Carnaval1/img/clients-logo/c-logo-2.png') }}" alt="">
                     </div>
                 </div>
             </div>

@@ -15,8 +15,8 @@ class CarnavalController extends Controller {
 		$now = new \DateTime();
 		$now = $now->format('Y-m-d');
 
-		$val = Press::where([['status', 0], ['publish', '<=', $now]])->orderBy('publish', 'desc')->get()->take(3);
-
+		$val = Press::where([['type_id', 3]])->get()->take(4);
+		#$val = Press::where([['status', 0], ['publish', '<=', $now]])->orderBy('publish', 'desc')->get()->take(4);
 		return view('principal.index', compact('val'));
 
 	}
@@ -174,7 +174,7 @@ class CarnavalController extends Controller {
 	}
 	/*Trait*/
 	public function template_noticias() {
-		$val = Press::where('type_id', 3)->get();
+		return $val = Press::where('type_id', 3)->get();
 
 		$contar_columna = 0;
 		//return ImagenDepot::all();
@@ -183,8 +183,9 @@ class CarnavalController extends Controller {
 		foreach ($val as $value) {
 			$contar_columna++;
 
-			if ($contar_columna == 3) {
+			if ($contar_columna == 4) {
 				$template_comunicado .= "<div class='row row-padded-mb'>";
+				$contar_columna = 0;
 			}
 
 			$change = str_replace("\\", "/", $value->imagenDepotTitle_link->path);
@@ -218,7 +219,7 @@ class CarnavalController extends Controller {
 				</div>";
 			if ($contar_columna == 3) {
 				$template_comunicado .= "</div>";
-				$contar_columna = 0;
+
 			}
 
 		}

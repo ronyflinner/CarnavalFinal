@@ -19,12 +19,11 @@
 	<br><br><br>
 		<div class="container text-justify">
 			<div class="row">
-				<div class="col-md-6  animate-box"  >
+				<div class="col-md-6  animate-box wow bounceInLeft" data-wow-delay="0.4s"  >
 					<br>
 					<img class="img-responsive img-thumbnail- bounce-in hvr-ripple-out" src="{{ url('Carnaval1/img/pag/puesta/coreografia.png') }}">
 				</div>
-				<div class="col-md-6 animate-box">
-
+				<div class="col-md-6 animate-box wow bounceInRight" data-wow-delay="0.4s" >
 
 					<p>
 					<b>Renan Banov</b><br><small>30 años (São Paulo/SP)</small> <br>

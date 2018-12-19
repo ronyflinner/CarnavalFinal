@@ -24,7 +24,7 @@
 		<div class="mb-4"></div><div class="mb-4"></div><div class="mb-4"></div><div class="mb-4"></div><div class="mb-4"></div><div class="mb-4"></div>
 		<div class="container text-justify">
 			<div class="row">
-				<div class="col-md-6 animate-box">
+				<div class="col-md-6 wow bounceInLeft" data-wow-delay="0.4s">
 					<br><div class="mb-4"></div><div class="mb-4"></div><div class="mb-4"></div><div class="mb-4"></div><div class="mb-4"></div><div class="mb-4"></div>
 
 					<h3><img src="{{url('Carnaval1/img/text/carros-alegóricos.png')}}" class="img-responsive shake-slow" width="300px" height="305px"></h3>
@@ -35,7 +35,7 @@
 					Los carros acompañantes medirán de 10 a 30 M de largo, 11M de ancho y 15M de altura.</p>
 
 				</div>
-				<div class="col-md-6 animate-box">
+				<div class="col-md-6 wow bounceInRight" data-wow-delay="0.4s">
                     <br><br><div class="mb-4"></div><div class="mb-4"></div>
 					<img class="img-responsive img-thumbnail- bounce-in hvr-ripple-out" src="{{ url('Carnaval1/img/pag/puesta/carrosalegóricos.png') }}"></div>
 

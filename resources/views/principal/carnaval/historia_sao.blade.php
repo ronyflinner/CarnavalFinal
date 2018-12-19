@@ -30,7 +30,7 @@
 			}
 
 	</style>
-	<div id="fh5co-contact" style="background-image: url({{ url('Carnaval1/img/bg/st-2.png') }});">
+	<div id="fh5co-contact" style="background-image: url({{ url('carnaval/images/bg/st-2.png') }});">
 		<br><br>
 		<div class="container text-justify">
 			  <div class="row" >

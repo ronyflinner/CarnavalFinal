@@ -33,24 +33,11 @@
       <section class="pixel-feature-area d-flex flex-wrap">
 
          <!-- Feature Content -->
-        <div class="feature-content " style="background-image: url({{ url('Carnaval1/img/bg-img/st-2.png') }});">
-
-
-              <div class="jumbotron jumbotron-fluid" >
-                <div class="container">
-                    <p> Seducida por su arte, danzas, trajes típicos, fiestas locales y religiosas, la Escuela de Samba Unidos de Vila María eligió representar al Perú en el Carnaval São Paulo 2019.<p>
-                <p>
-                   Se trata de la primera vez que el Perú estará ante los ojos del mundo y tendrá presencia en la fiesta más famosa del planeta.
-                </p>
-                <p>
-                  Lo más memorable de la identidad, cultura y tradición del Perú se presentará en el Carnaval de São Paulo, y cautivará a millones de personas. Más de 800 millones de personas en más de 140 países de los cinco continentes quedarán rendidos ante la majestuosidad de la cultura peruana.
-                </p>
-                </div>
-                </div>
-
+        <div class="feature-content ">
+          <img src="{{ url('Carnaval1/img/bg/text.png') }}">
         </div>
         <!-- Feature Thumbnail -->
-        <div class="feature-thumbnail bg-img jarallax text-center" style="background-image: url({{ url('Carnaval1/img/bg-img/carrosalegóricos.jpg') }});">
+        <div class="feature-thumbnail bg-img jarallax text-center" style="background-image: url({{ url('Carnaval1/img/bg-img/img-video.png') }});">
 
 
             <a href="#">
@@ -90,7 +77,7 @@
                 <img src="{{ url('Carnaval1/img/puesta/1-P.png') }}" alt="">
                 <div class="hover-content text-center d-flex align-items-center justify-content-center">
                     <div class="hover-text">
-                        <a href="{{ route('peru.puestaEscena.tramas') }}" class="zoom-img><i class="fa fa-eye" aria-hidden="true"></i></a>
+                        <a href="{{ route('peru.puestaEscena.tramas') }}" class="zoom-img"><i class="fa fa-eye" aria-hidden="true"></i></a>
 
                         <h4>Trama</h4>
                     </div>
@@ -102,7 +89,7 @@
                 <img src="{{ url('Carnaval1/img/puesta/3-P.png') }}" alt="">
                 <div class="hover-content text-center d-flex align-items-center justify-content-center">
                     <div class="hover-text">
-                        <a href="{{ url('Carnaval1/img/bg-img/5.jpg') }}" class="zoom-img"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                        <a href="{{ route('peru.puestaEscena.vestuario') }}" class="zoom-img"><i class="fa fa-eye" aria-hidden="true"></i></a>
                         <h4>Vestuario</h4>
                     </div>
                 </div>
@@ -113,7 +100,7 @@
                 <img src="{{ url('Carnaval1/img/puesta/2-P.png') }}" alt="">
                 <div class="hover-content text-center d-flex align-items-center justify-content-center">
                     <div class="hover-text">
-                        <a href="{{ url('Carnaval1/img/bg-img/5.jpg') }}" class="zoom-img"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                        <a href="{{ route('peru.puestaEscena.carnavalesco') }}" class="zoom-img"><i class="fa fa-eye" aria-hidden="true"></i></a>
                         <h4>Carnavalescos</h4>
                     </div>
                 </div>
@@ -123,7 +110,7 @@
                 <img src="{{ url('Carnaval1/img/puesta/5-P.png') }}" alt="">
                 <div class="hover-content text-center d-flex align-items-center justify-content-center">
                     <div class="hover-text">
-                        <a href="{{ url('Carnaval1/img/bg-img/5.jpg') }}" class="zoom-img"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                        <a href="{{ route('peru.puestaEscena.carros') }}" class="zoom-img"><i class="fa fa-eye" aria-hidden="true"></i></a>
                         <h4>Carros Alegóricos</h4>
                     </div>
                 </div>
@@ -134,7 +121,7 @@
                 <img src="{{ url('Carnaval1/img/puesta/6-P.png') }}" alt="">
                 <div class="hover-content text-center d-flex align-items-center justify-content-center">
                     <div class="hover-text">
-                        <a href="{{ url('Carnaval1/img/bg-img/5.jpg') }}" class="zoom-img"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                        <a href="{{ route('peru.puestaEscena.musica') }}" class="zoom-img"><i class="fa fa-eye" aria-hidden="true"></i></a>
                         <h4>Música</h4>
                     </div>
                 </div>
@@ -145,7 +132,7 @@
                 <img src="{{ url('Carnaval1/img/puesta/2-P.png') }}" alt="">
                 <div class="hover-content text-center d-flex align-items-center justify-content-center">
                     <div class="hover-text">
-                        <a href="{{ url('Carnaval1/img/bg-img/5.jpg') }}" class="zoom-img"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                        <a href="{{ route('peru.puestaEscena.coreografo') }}" class="zoom-img"><i class="fa fa-eye" aria-hidden="true"></i></a>
                         <h4>Coreógrafo</h4>
                     </div>
                 </div>
@@ -169,59 +156,43 @@
     <div class="row">
         <div class="col-md-12">
             <div id="owl-carousel1" class="owl-carousel">
+
+
+                 @foreach ($val as $value)
+
+                  @php
+                     $change = str_replace("\\", "/", $value->imagenDepotTitle_link->path);
+                     $url2 = url($change);
+
+                    if ($value->url_image_id != 0) {
+                        $hre = route('contenido', [$value->slug]);
+                    } else {
+                        $hre = $value->url_string;
+                    }
+                  @endphp
+
                 <div class="post-slide visual wow fadeInUp" data-wow-delay="0.4s" id="noticiasp">
                     <div class="post-img">
-                        <a href="#">
-                            <img src="{{ url('Carnaval1/img/puesta/3-P.png') }}" class="img-responsive" alt="Cinque Terre">
-                            <div class="post-date">
-                                <span class="date">13</span>
-                                <span class="month">jan</span>
+                        <a href='{{ $hre }}'>
+                            <img src="{{ $url2 }}" class="img-responsive" alt="Cinque Terre" width="40px" height="60px">
+                           <div class="post-date">
+                                <span class="date">14</span>
+                                <span class="month">Nov</span>
                             </div>
                         </a>
                     </div>
                     <div class="post-review " id="noticiasp">
-                        <h3 class="post-title"><a href="#">jhkjhkj</a></h3>
+                        <h3 class="post-title"><a href="#">{{ $value->title }}</a></h3>
 
-                        <p class="post-description">La Escuela Unidos de Vila María, una de las escuelas de samba más importantes de Brasil, se complace en anunciar la elección del Perú como la temática principal de sus alegorías para el Carnaval de São Paulo 2019</p>
+                        <p class="post-description">{!! trim($value->description)  !!} </p>
+                        <a align="center" href='{{ $hre }}'>Leer m&aacute;s →</a>
                     </div>
 
                 </div>
+               @endforeach
 
-                <div class="post-slide wow fadeInUp" data-wow-delay="0.4s" id="noticiasp">
-                    <div class="post-img ">
-                        <a href="#">
-                            <img src="{{ url('Carnaval1/img/puesta/3-P.png') }}" class="img-responsive" alt="Cinque Terre">
-                            <div class="post-date">
-                                <span class="date">13</span>
-                                <span class="month">jan</span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="post-review">
-                        <h3 class="post-title"><a href="#">jhkjhkj</a></h3>
 
-                        <p class="post-description">La Escuela Unidos de Vila María, una de las escuelas de samba más importantes de Brasil, se complace en anunciar la elección del Perú como la temática principal de sus alegorías para el Carnaval de São Paulo 2019</p>
-                    </div>
 
-                </div>
-
-                <div class="post-slide visual wow fadeInUp" id="noticiasp">
-                    <div class="post-img">
-                        <a href="#">
-                            <img src="{{ url('Carnaval1/img/puesta/3-P.png') }}" class="img-responsive" alt="Cinque Terre">
-                            <div class="post-date">
-                                <span class="date">13</span>
-                                <span class="month">jan</span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="post-review">
-                        <h3 class="post-title"><a href="#">jhkjhkj</a></h3>
-
-                        <p class="post-description">La Escuela Unidos de Vila María, una de las escuelas de samba más importantes de Brasil, se complace en anunciar la elección del Perú como la temática principal de sus alegorías para el Carnaval de São Paulo 2019</p>
-                    </div>
-
-                </div>
             </div>
         </div>
     </div>

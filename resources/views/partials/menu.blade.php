@@ -34,20 +34,20 @@
                             <div class="classynav">
                                 <ul>
                                     <li><a href="{{ url('/') }}">Inicio &nbsp; &nbsp;</a></li>
-                                    <li><a href="{{url('/') }}">Carnaval de São Paulo</a>
+                                    <li><a href="#" >Carnaval de São Paulo</a>
                                         <ul class="dropdown">
                                             <li><a href="{{ route('carnaval.historiaSaoPaolo') }}">Historia</a></li>
                                             <li><a href="{{ route('carnaval.SanBodromo') }}">El Sambódromo</a></li>
                                         </ul>
                                     </li>
 
-                                    <li><a href="portfolio.html">Escuela Unidos de Vila Maria</a>
+                                    <li><a href="#" >Escuela Unidos de Vila Maria</a>
                                         <ul class="dropdown">
                                             <li><a href="{{ route('escuela.historiaSamba') }}">Historia</a></li>
                                             <li><a href="{{ route('escuela.LogrosReconocimiento') }}">Logros</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="portfolio.html">Perú en el Carnaval</a>
+                                    <li><a href="#">Perú en el Carnaval</a>
                                         <ul class="dropdown">
                                             <li><a href="{{ route('peru.resenaCarnaval') }}">Reseña</a></li>
                                             <li><a href="{{ route('peru.puestaEscena') }}" >Puesta en escena</a>
@@ -63,7 +63,7 @@
                                             </li>
                                         </ul>
                                     </li>
-                                    <li><a href="portfolio.html">Prensa</a>
+                                    <li><a href="#">Prensa</a>
                                         <ul class="dropdown">
                                              <li><a href="about.html">Comunicados</a></li>
                                             <li><a href="{{ route('salaPrensa.fotografia') }}">Fotografías</a></li>

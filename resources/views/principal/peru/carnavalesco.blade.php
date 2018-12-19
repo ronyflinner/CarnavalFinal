@@ -18,11 +18,13 @@
 <div id="fh5co-contact" style="background-image: url({{ url('Carnaval/img/bg/st-2.png') }});">
 		<div class="container text-justify">
 			<div class="row animate-box">
-                <div class="col-md-8 col-md-offset-2 text-center h5co-heading ">
+                <div class="col-md-12 col-md-offset-2 text-center h5co-heading wow bounce" data-wow-delay="0.4s">
                 	<div class="mb-4"></div><div class="mb-4"></div><div class="mb-4"></div>
+
 					<img src="{{url('Carnaval1/img/text/carnavalescos.png')}}" class="img-responsive shake-slow" width="300px" height="305px"><br>
+
 					<div class="mb-4"></div><div class="mb-4"></div><div class="mb-4"></div>
-                    <p class=" ">
+                    <p >
 					La puesta en escena de Perú en el Carnaval estará a cargo de dos destacados Carnavalescos, Cristiano Bara y Alexandre Louzada, especialistas en desarrollo de montaje de desfile en Brasil.<p>
                 </div>
             </div><br><br>

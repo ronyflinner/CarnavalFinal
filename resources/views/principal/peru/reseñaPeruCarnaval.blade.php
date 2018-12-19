@@ -7,7 +7,7 @@
             <div class="row h-100 align-items-center">
                 <div class="col-12">
                     <div class="breadcrumb-content wow tada">
-                        <h1 class="heading-section" style="color:white">Sambódromo</h1>
+                        <h1 class="heading-section" style="color:white">Perú en el <br> <b>Carnaval</b></h1>
                     </div>
                 </div>
             </div>
@@ -20,11 +20,11 @@
 <div id="fh5co-contact" style="background-image: url({{ url('Carnaval1/img/bg/st-2.png') }});">
 		<div class="container text-justify">
 			  <div class="row" >
-				<div class="col-md-6  animate-box"  ><br><br><br>
+				<div class="col-md-6  wow bounceInLeft" data-wow-delay="0.4s"  ><br><br><br>
 					<img class="img-responsive img-thumbnail- bounce-in hvr-ripple-out" src="{{ url('Carnaval1/img/pag/resena_peru/resena.png') }}">
 
 				</div>
-				<div class="col-md-6 animate-box">
+				<div class="col-md-6 wow bounceInRight" data-wow-delay="0.4s">
 
 					<h2><img src="{{url('Carnaval1/img/text/reseña.png')}}" class="img-responsive shake-slow" width="200px" height="205px"></h2>
 					<p>Seducida por su arte, danzas, trajes típicos, fiestas locales y religiosas, la escuela de samba Unidos de Vila María eligió representar al Perú en el Carnaval São Paulo 2019.</p>
