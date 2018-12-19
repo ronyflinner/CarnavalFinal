@@ -1,7 +1,7 @@
 @extends('layouts.principalWeb')
 @section('banner')
 
- <section class="breadcrumb-area  jarallax" id="bane" style="background-image: url({{ url('Carnaval1/img/bg/vestuario.jpg') }});">
+ <section class="breadcrumb-area  jarallax" id="bane" style="background-image: url({{ url('Carnaval1/img/bg-img/vestuario.jpg') }});">
         <div class="container-fluid h-100">
             <div class="row h-100 align-items-center">
                 <div class="col-12">
@@ -19,7 +19,7 @@
 
 
 @section('content')
-<div id="fh5co-contact" style="background-image:  url({{ url('Carnaval/img/bg/st-2.png') }});">
+<div id="fh5co-contact" style="background-image:  url({{ url('Carnaval/img/bg-img/st-2.png') }});">
 		<div class="mb-4"></div><div class="mb-4"></div><div class="mb-4"></div><div class="mb-4"></div><div class="mb-4"></div><div class="mb-4"></div><div class="mb-4"></div><div class="mb-4"></div><div class="mb-4"></div>
 		<div class="mb-4"></div><div class="mb-4"></div><div class="mb-4"></div><div class="mb-4"></div><div class="mb-4"></div><div class="mb-4"></div>
 		<div class="container text-justify">
@@ -27,7 +27,7 @@
 				<div class="col-md-6 wow bounceInLeft" data-wow-delay="0.4s">
 					<br><div class="mb-4"></div><div class="mb-4"></div><div class="mb-4"></div><div class="mb-4"></div><div class="mb-4"></div><div class="mb-4"></div>
 
-					<h3><img src="{{url('Carnaval1/img/text/carros-alegóricos.png')}}" class="img-responsive shake-slow" width="300px" height="305px"></h3>
+					<h3><img src="{{url('Carnaval1/img/text-img/carros-alegóricos.png')}}" class="img-responsive shake-slow" width="300px" height="305px"></h3>
                     <div class="mb-4"></div><div class="mb-4"></div><div class="mb-4"></div><div class="mb-4"></div><div class="mb-4"></div><div class="mb-4"></div>
 					<p>
 					Seis gigantescos carros alegóricos, exhibirán con espectacularidad la historia ancestral del país, atractivos indiscutibles que deslumbrará a locales y extranjeros.</p><p>

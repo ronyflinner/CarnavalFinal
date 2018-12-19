@@ -2,7 +2,7 @@
 
 @section('banner')
 
- <section class="breadcrumb-area  jarallax" id="bane" style="background-image: url({{ url('Carnaval1/img/bg/sambodromo.jpg') }});">
+ <section class="breadcrumb-area  jarallax" id="bane" style="background-image: url({{ url('Carnaval1/img/bg-img/sambodromo.jpg') }});">
         <div class="container-fluid h-100">
             <div class="row h-100 align-items-center">
                 <div class="col-12">
@@ -20,7 +20,7 @@
 
 @section('content')
 
-<div id="fh5co-contact" style="background-image: url({{ url('carnaval/images/bg/st-2.png') }});">
+<div id="fh5co-contact" style="background-image: url({{ url('carnaval/images/bg-img/st-2.png') }});">
 		<div class="container text-justify">
 
 			<div class="row" >
@@ -43,66 +43,66 @@
 	</div>
 	<div id="fh5co-register bg-t-color"  style="background-image: url({{ url('Carnaval1/img/bg/st-2.png') }});" >
 		<br>
-		<div class="owl-carousel owl-carousel-fullwidth">
-            <div class="item animate-box">
+		<div  id="owl-carousel" class="owl-carousel owl-carousel-fullwidth">
+            <div class="item wow zoomInRight">
                 <div class="team-image">
             		<a href="{{ url('Carnaval1/img/pag/sambodromo/1.png') }}" data-toggle="lightbox" data-gallery="example-gallery">
 		                 <img class="img-responsive img-thumbnail bounce-in" src="{{ url('Carnaval1/img/pag/sambodromo/1.png') }}" alt="" width="">
 		            </a>
                 </div>
             </div>
-            <div class="item animate-box">
+            <div class="item wow zoomInRight">
                 <div class="team-image">
                    <a href="{{ url('Carnaval1/img/pag/sambodromo/2.png') }}" data-toggle="lightbox" data-gallery="example-gallery">
-		                 <img class="img-responsive img-thumbnail bounce-in" src="{{ url('carnaval/images/pag/sambodromo/2.png') }}" alt="" width="">
+		                 <img class="img-responsive img-thumbnail bounce-in" src="{{ url('Carnaval1/img/pag/sambodromo/2.png') }}" alt="" width="">
 		            </a>
 
                 </div>
             </div>
-            <div class="item animate-box">
+            <div class="item wow zoomInRight">
                 <div class="team-image">
-                    <a href="{{ url('carnaval/images/pag/sambodromo/3.png') }}" data-toggle="lightbox" data-gallery="example-gallery">
-		                 <img class="img-responsive img-thumbnail bounce-in" src="{{ url('carnaval/images/pag/sambodromo/3.png') }}" alt="" width="">
+                    <a href="{{ url('cCarnaval1/img/pag/sambodromo/3.png') }}" data-toggle="lightbox" data-gallery="example-gallery">
+		                 <img class="img-responsive img-thumbnail bounce-in" src="{{ url('Carnaval1/img/pag/sambodromo/3.png') }}" alt="" width="">
 		            </a>
 
                 </div>
             </div>
-            <div class="item animate-box">
+            <div class="item wow zoomInRight">
                 <div class="team-image">
-                    <a href="{{ url('carnaval/images/pag/sambodromo/4.png') }}" data-toggle="lightbox" data-gallery="example-gallery">
-		                 <img class="img-responsive img-thumbnail bounce-in" src="{{ url('carnaval/images/pag/sambodromo/4.png') }}" alt="" width="">
+                    <a href="{{ url('Carnaval1/img/pag/sambodromo/4.png') }}" data-toggle="lightbox" data-gallery="example-gallery">
+		                 <img class="img-responsive img-thumbnail bounce-in" src="{{ url('Carnaval1/img/pag/sambodromo/4.png') }}" alt="" width="">
 		            </a>
 
                 </div>
             </div>
-            <div class="item animate-box">
+            <div class="item wow zoomInRight">
                 <div class="team-image">
-                    <a href="{{ url('carnaval/images/pag/sambodromo/5.png') }}" data-toggle="lightbox" data-gallery="example-gallery">
-		                 <img class="img-responsive img-thumbnail bounce-in" src="{{ url('carnaval/images/pag/sambodromo/5.png') }}" alt="" width="">
+                    <a href="{{ url('Carnaval1/img/pag/sambodromo/5.png') }}" data-toggle="lightbox" data-gallery="example-gallery">
+		                 <img class="img-responsive img-thumbnail bounce-in" src="{{ url('Carnaval1/img/pag/sambodromo/5.png') }}" alt="" width="">
 		            </a>
 
                 </div>
             </div>
-            <div class="item animate-box">
+            <div class="item wow zoomInRight">
                 <div class="team-image">
-               		 <a href="{{ url('carnaval/images/pag/sambodromo/6.png') }}" data-toggle="lightbox" data-gallery="example-gallery">
-		                 <img class="img-responsive img-thumbnail bounce-in" src="{{ url('carnaval/images/pag/sambodromo/6.png') }}" alt="" width="">
+               		 <a href="{{ url('Carnaval1/img/pag/sambodromo/6.png') }}" data-toggle="lightbox" data-gallery="example-gallery">
+		                 <img class="img-responsive img-thumbnail bounce-in" src="{{ url('Carnaval1/img/pag/sambodromo/6.png') }}" alt="" width="">
 		            </a>
 
                 </div>
             </div>
-            <div class="item animate-box">
+            <div class="item wow zoomInRight">
                 <div class="team-image">
-                    <a href="{{ url('carnaval/images/pag/sambodromo/7.png') }}" data-toggle="lightbox" data-gallery="example-gallery">
-		                 <img class="img-responsive img-thumbnail bounce-in" src="{{ url('carnaval/images/pag/sambodromo/7.png') }}" alt="" width="">
+                    <a href="{{ url('Carnaval1/img/pag/sambodromo/7.png') }}" data-toggle="lightbox" data-gallery="example-gallery">
+		                 <img class="img-responsive img-thumbnail bounce-in" src="{{ url('Carnaval1/img/pag/sambodromo/7.png') }}" alt="" width="">
 		            </a>
 
                 </div>
             </div>
-            <div class="item animate-box">
+            <div class="item wow zoomInRight">
                 <div class="team-image">
-                    <a href="{{ url('carnaval/images/pag/sambodromo/8.png') }}" data-toggle="lightbox" data-gallery="example-gallery">
-		                 <img class="img-responsive img-thumbnail bounce-in" src="{{ url('carnaval/images/pag/sambodromo/8.png') }}" alt="" width="">
+                    <a href="{{ url('Carnaval1/img/pag/sambodromo/8.png') }}" data-toggle="lightbox" data-gallery="example-gallery">
+		                 <img class="img-responsive img-thumbnail bounce-in" src="{{ url('Carnaval1/img/pag/sambodromo/8.png') }}" alt="" width="">
 		            </a>
 
                 </div>

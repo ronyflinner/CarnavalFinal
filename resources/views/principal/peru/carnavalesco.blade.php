@@ -1,6 +1,6 @@
 @extends('layouts.principalWeb')
 @section('banner')
- <section class="breadcrumb-area  jarallax" id="bane" style="background-image: url({{ url('Carnaval1/img/bg/carnavalescos.jpg') }});">
+ <section class="breadcrumb-area  jarallax" id="bane" style="background-image: url({{ url('Carnaval1/img/bg-img/carnavalescos.jpg') }});">
         <div class="container-fluid h-100">
             <div class="row h-100 align-items-center">
                 <div class="col-12">
@@ -15,13 +15,13 @@
 @endsection
 
 @section('content')
-<div id="fh5co-contact" style="background-image: url({{ url('Carnaval/img/bg/st-2.png') }});">
+<div id="fh5co-contact" style="background-image: url({{ url('Carnaval/img/bg-img/st-2.png') }});">
 		<div class="container text-justify">
 			<div class="row animate-box">
                 <div class="col-md-12 col-md-offset-2 text-center h5co-heading wow bounce" data-wow-delay="0.4s">
                 	<div class="mb-4"></div><div class="mb-4"></div><div class="mb-4"></div>
 
-					<img src="{{url('Carnaval1/img/text/carnavalescos.png')}}" class="img-responsive shake-slow" width="300px" height="305px"><br>
+					<img src="{{url('Carnaval1/img/text-img/carnavalescos.png')}}" class="img-responsive shake-slow" width="300px" height="305px"><br>
 
 					<div class="mb-4"></div><div class="mb-4"></div><div class="mb-4"></div>
                     <p >

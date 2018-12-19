@@ -1,7 +1,7 @@
 @extends('layouts.principalWeb')
 @section('banner')
 
-<section class="breadcrumb-area  jarallax" id="bane" style="background-image: url({{ url('Carnaval1/img/bg/coreografia.jpg') }});">
+<section class="breadcrumb-area  jarallax" id="bane" style="background-image: url({{ url('Carnaval1/img/bg-img/coreografia.jpg') }});">
         <div class="container-fluid h-100">
             <div class="row h-100 align-items-center">
                 <div class="col-12">
@@ -15,7 +15,7 @@
 @endsection
 
 @section('content')
-<div id="fh5co-contact" style="background-image: url({{ url('Carnaval/img/bg/st-2.png') }});">
+<div id="fh5co-contact" style="background-image: url({{ url('Carnaval/img/bg-img/st-2.png') }});">
 	<br><br><br>
 		<div class="container text-justify">
 			<div class="row">

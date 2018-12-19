@@ -50,7 +50,7 @@
                                     <li><a href="#">Perú en el Carnaval</a>
                                         <ul class="dropdown">
                                             <li><a href="{{ route('peru.resenaCarnaval') }}">Reseña</a></li>
-                                            <li><a href="{{ route('peru.puestaEscena') }}" >Puesta en escena</a>
+                                            <li><a href="#" >Puesta en escena</a>
                                                 <ul class="dropdown">
                                                     <li><a href="{{ route('peru.puestaEscena.tramas') }}"  >Trama</a></li>
                                                     <li><a href="{{ route('peru.puestaEscena.vestuario') }}" >Vestuario</a></li>

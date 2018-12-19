@@ -6,7 +6,7 @@
             <!-- Single Slide -->
             <div class="single-slide">
                 <!-- Background Image-->
-                <div class="slide-bg-img bg-img" style="background-image: url({{ url('Carnaval1/img/bg-img/desfile2018-49.jpg') }});"></div>
+                <div class="slide-bg-img bg-img" style="background-image: url({{ url('Carnaval1/img/bg-img/carnavalescos.jpg') }});"></div>
 
                 <!-- Welcome Text -->
                 <div class="container h-100">

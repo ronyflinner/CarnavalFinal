@@ -1,6 +1,6 @@
 @extends('layouts.principalWeb')
 @section('banner')
- <section class="breadcrumb-area  jarallax" id="bane" style="background-image: url({{ url('Carnaval1/img/bg/trama.jpg') }});">
+ <section class="breadcrumb-area  jarallax" id="bane" style="background-image: url({{ url('Carnaval1/img/bg-img/trama.jpg') }});">
         <div class="container-fluid h-100">
             <div class="row h-100 align-items-center">
                 <div class="col-12">
@@ -15,12 +15,12 @@
 @endsection
 
 @section('content')
-<div id="fh5co-contact" style="background-image: url({{ url('Carnaval/img/bg/st-2.png') }});">
+<div id="fh5co-contact" style="background-image: url({{ url('Carnaval/img/bg-img/st-2.png') }});">
 		<div class="container text-justify">
 			  <div class="row" >
 				<div class="col-md-6  animate-box wow bounceInLeft" data-wow-delay="0.4s">
 					<div class="mb-4"></div>
-					<img src="{{url('Carnaval1/img/text/trama.png')}}" class="img-responsive shake-slow" width="200px" height="205px">
+					<img src="{{url('Carnaval1/img/text-img/trama.png')}}" class="img-responsive shake-slow" width="200px" height="205px">
 					<div class="mb-4"></div>
 					<p>La escuela de samba Unidos de Vila María homenajeará al Perú con el tema <b><i>"En las alas del gran pájaro, el vuelo de Vila María al imperio del Sol"</i></b>.
 

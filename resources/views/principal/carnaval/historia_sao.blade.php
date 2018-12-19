@@ -8,7 +8,7 @@
 </style>
 
 
- <section class="breadcrumb-area  jarallax " id="bane" style="background-image: url({{ url('Carnaval1/img/bg/historiaSao.jpg') }});">
+ <section class="breadcrumb-area  jarallax " id="bane" style="background-image: url({{ url('Carnaval1/img/bg-img/historiaSao.jpg') }});">
         <div class="container-fluid h-100">
             <div class="row h-100 align-items-center">
                 <div class="col-12">
@@ -30,7 +30,7 @@
 			}
 
 	</style>
-	<div id="fh5co-contact" style="background-image: url({{ url('carnaval/images/bg/st-2.png') }});">
+	<div id="fh5co-contact" style="background-image: url({{ url('carnaval/images/bg-img/st-2.png') }});">
 		<br><br>
 		<div class="container text-justify">
 			  <div class="row" >
@@ -44,7 +44,7 @@
 
 				</div>
 				<div class="col-md-6 animate-box wow bounceInRight" data-wow-delay="0.4s">
-					 <h2><img src="{{url('Carnaval1/img/text/historiasao.png')}}" class="img-responsive shake-slow" width="200px" height="205px"></h2>
+					 <h2><img src="{{url('Carnaval1/img/text-img/historiasao.png')}}" class="img-responsive shake-slow" width="200px" height="205px"></h2>
 
 					<p>
 					El Carnaval de São Paulo es una de las fiestas más famosas del mundo y la viva expresión de diversas culturas que cautivan a millones de personas de los cinco continentes.<p>
