@@ -1,7 +1,7 @@
 @extends('layouts.principalWeb')
 
 @section('banner')
-<section class="breadcrumb-area  jarallax" id="bane" style="background-image: url({{ url('Carnaval1/img/bg-img/fnoticias.jpg') }});">
+<section class="breadcrumb-area  jarallax" id="bane" style="background-image: url({{ url('Carnaval1/img/bg-img/noticias.jpg') }});">
         <div class="container-fluid h-100">
             <div class="row h-100 align-items-center">
                 <div class="col-12">
@@ -15,16 +15,16 @@
 @endsection
 
 @section('content')
-<div id="fh5co-blog">
+	<section id="fh5co-blog">
 		<div class="container">
-			<div class="row animate-box">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-						<h2><img src="{{url('carnaval/images/text/noticias.png')}}" class="img-responsive shake-slow" width="300px" height="305px"></h2>
+			<div class="row wow fadeInUp d-flex justify-content-center">
 
-				</div>
+						<h2><img src="{{url('Carnaval1/img/text-img/noticias.png')}}" class="img-responsive shake-slow" width="300px" height="305px"></h2>
+
+
 			</div>
 			{!! $template_comunicado !!}
-
+			<br>
 		</div>
-	</div>
+	</section>
 @endsection
