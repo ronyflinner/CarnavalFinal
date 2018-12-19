@@ -59,13 +59,6 @@
 
 						<div class="row form-group">
 							<div class="col-md-12">
-								<!-- <label for="subject">Subject</label> -->
-								<input type="text" id="subject" class="form-control" placeholder="Su mensaje" required="">
-							</div>
-						</div>
-
-						<div class="row form-group">
-							<div class="col-md-12">
 								<!-- <label for="message">Message</label> -->
 								<textarea name="message" id="message" cols="30" rows="10" class="form-control" placeholder="Dinos algo!!!" required=""></textarea>
 							</div>
