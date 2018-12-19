@@ -66,9 +66,9 @@
                                     <li><a href="portfolio.html">Prensa</a>
                                         <ul class="dropdown">
                                              <li><a href="about.html">Comunicados</a></li>
-                                            <li><a href="index.html">Fotografías</a></li>
-                                            <li><a href="about.html">Noticias</a></li>
-                                            <li><a href="about.html">Videos</a></li>
+                                            <li><a href="{{ route('salaPrensa.fotografia') }}">Fotografías</a></li>
+                                            <li><a href="{{ route('salaPrensa.noticia') }}">Noticias</a></li>
+                                            <li><a href="{{ route('salaPrensa.video') }}">Videos</a></li>
                                         </ul>
                                     </li>
                                      <li><a href="{{ route('carnaval.fechaRuta') }}">Fechas &nbsp;</a></li>

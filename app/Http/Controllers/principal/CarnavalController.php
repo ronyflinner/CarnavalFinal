@@ -94,14 +94,14 @@ class CarnavalController extends Controller {
 		return view('principal.salaEntrevista');
 	}
 	public function fotografia() {
-		return view('principal.fotografia');
+		return view('principal.fotografia.fotografia');
 	}
 	public function noticia() {
 		$template = self::template_noticias();
-		return view('principal.noticia', ['template_comunicado' => $template]);
+		return view('principal.noticia.noticia', ['template_comunicado' => $template]);
 	}
 	public function video() {
-		return view('principal.video');
+		return view('principal.video.video');
 	}
 	public function contacto() {
 		return view('principal.contacto.contacto');
