@@ -90,7 +90,7 @@
                 <img src="{{ url('Carnaval1/img/puesta/1-P.png') }}" alt="">
                 <div class="hover-content text-center d-flex align-items-center justify-content-center">
                     <div class="hover-text">
-                        <a href="#" class="zoom-img"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                        <a href="{{ route('peru.puestaEscena.tramas') }}" class="zoom-img><i class="fa fa-eye" aria-hidden="true"></i></a>
 
                         <h4>Trama</h4>
                     </div>
