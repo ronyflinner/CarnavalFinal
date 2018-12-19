@@ -14,7 +14,7 @@
         @yield('seccion_b')
         @yield('seccion_c')
         @yield('seccion_d')
-        @include('partials.sponsor')
+        <!--include('partials.sponsor')-->
         @include('partials.footer')
 
     </div>

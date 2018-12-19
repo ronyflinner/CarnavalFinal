@@ -40,7 +40,7 @@
                     }
                   @endphp
                   <div class="col-md-4 col-sm-6 col-xs-12 " >
-                    <div class="blog-sec box" id="noticia">
+                    <div class="blog-sec box wow bounceInUp" id="noticia">
                       <div class="blog-img">
                         <a href="">
                           <img src='{{ $url2  }}' width="100%" height="100px" class="img-responsive">
