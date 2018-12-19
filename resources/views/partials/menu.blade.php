@@ -58,7 +58,7 @@
                                                     <li><a href="{{ route('peru.puestaEscena.carros') }}" >Carros Alegóricos
                                                 </a></li>
                                                     <li><a href="{{ route('peru.puestaEscena.musica') }}">Música</a></li>
-                                                    <li><a href="elements.html">Coreógrafia</a></li>
+                                                    <li><a href="{{ route('peru.puestaEscena.coreografo') }}">Coreógrafia</a></li>
                                                 </ul>
                                             </li>
                                         </ul>

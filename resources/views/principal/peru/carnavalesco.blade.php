@@ -1,6 +1,6 @@
 @extends('layouts.principalWeb')
 @section('banner')
- <section class="breadcrumb-area  jarallax" id="bane" style="background-image: url({{ url('Carnaval1/img/carnavalescos.jpg') }});">
+ <section class="breadcrumb-area  jarallax" id="bane" style="background-image: url({{ url('Carnaval1/img/bg/carnavalescos.jpg') }});">
         <div class="container-fluid h-100">
             <div class="row h-100 align-items-center">
                 <div class="col-12">
@@ -15,18 +15,20 @@
 @endsection
 
 @section('content')
-<div id="fh5co-contact" style="background-image: url({{ url('Carnaval1/img/bg/st-2.png') }});">
+<div id="fh5co-contact" style="background-image: url({{ url('Carnaval/img/bg/st-2.png') }});">
 		<div class="container text-justify">
 			<div class="row animate-box">
-                <div class="col-md-8 col-md-offset-2 text-center h5co-heading">
+                <div class="col-md-8 col-md-offset-2 text-center h5co-heading ">
+                	<div class="mb-4"></div><div class="mb-4"></div><div class="mb-4"></div>
 					<img src="{{url('Carnaval1/img/text/carnavalescos.png')}}" class="img-responsive shake-slow" width="300px" height="305px"><br>
+					<div class="mb-4"></div><div class="mb-4"></div><div class="mb-4"></div>
                     <p class=" ">
 					La puesta en escena de Perú en el Carnaval estará a cargo de dos destacados Carnavalescos, Cristiano Bara y Alexandre Louzada, especialistas en desarrollo de montaje de desfile en Brasil.<p>
                 </div>
             </div><br><br>
 
 			<div class="row">
-				<div class="col-md-6 animate-box"  >
+				<div class="col-md-6 animate-box wow bounceInRight" data-wow-delay="0.4s"  >
 
 
 
@@ -41,7 +43,7 @@
 					<p>
 
 				</div>
-				<div class="col-md-6 animate-box">
+				<div class="col-md-6 animate-box wow bounceInRight" data-wow-delay="0.4s" >
 					<img class="img-responsive img-thumbnail- bounce-in hvr-ripple-out" src="{{ url('Carnaval1/img/pag/puesta/p2.jpeg') }}">
 				</div>
 			</div>
@@ -49,7 +51,7 @@
 				<div class="col-md-12"></div>
 			</div>
 			<div class="row">
-				<div class="col-md-6 animate-box">
+				<div class="col-md-6  wow bounceInLeft" data-wow-delay="0.4s" >
 					<img class="img-responsive img-thumbnail- bounce-in hvr-ripple-out" src="{{ url('Carnaval1/img/pag/puesta/p1.jpeg') }}">
 				</div>
 				<div class="col-md-6 animate-box">
@@ -104,8 +106,9 @@
 					Las mil y una noches de una moza más allá de Marrakech (Mocidade/Río Juvenil) Enredo sobre Marruecos.
 					</p>
 				</div>
-			</div>
 
+			</div>
+<div class="mb-4"></div><div class="mb-4"></div><div class="mb-4"></div><div class="mb-4"></div><div class="mb-4"></div><div class="mb-4"></div><div class="mb-4"></div><div class="mb-4"></div><div class="mb-4"></div><br>
 		</div>
 
 	</div>

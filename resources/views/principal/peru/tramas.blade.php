@@ -18,9 +18,10 @@
 <div id="fh5co-contact" style="background-image: url({{ url('Carnaval/img/bg/st-2.png') }});">
 		<div class="container text-justify">
 			  <div class="row" >
-				<div class="col-md-6  animate-box">
-					<br>
+				<div class="col-md-6  animate-box wow bounceInLeft" data-wow-delay="0.4s">
+					<div class="mb-4"></div>
 					<img src="{{url('Carnaval1/img/text/trama.png')}}" class="img-responsive shake-slow" width="200px" height="205px">
+					<div class="mb-4"></div>
 					<p>La escuela de samba Unidos de Vila María homenajeará al Perú con el tema <b><i>"En las alas del gran pájaro, el vuelo de Vila María al imperio del Sol"</i></b>.
 
 					</p>
@@ -35,10 +36,20 @@
 
 						El gran pájaro representa el abrazo entre Perú y Brasil, calentadas por el astro rey y el calor humano en una misma celebración, que permite ser súbditos del inmenso imperio del sol.
 					</p>
+
 				</div>
-				<div class="col-md-6 animate-box">
+
+				<div class="col-md-6 animate-box wow bounceInRight" data-wow-delay="0.4s">
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
 					<img class="img-responsive img-thumbnail- bounce-in hvr-ripple-out" src="{{ url('Carnaval1/img/pag/puesta/trama.png') }}">
 				</div>
+				<div class="mb-2"></div>
+				<br>
 			</div>
 
 

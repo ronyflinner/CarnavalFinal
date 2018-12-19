@@ -31,6 +31,7 @@
 
 	</style>
 	<div id="fh5co-contact" style="background-image: url({{ url('Carnaval1/img/bg/st-2.png') }});">
+		<br><br>
 		<div class="container text-justify">
 			  <div class="row" >
 				<div class="col-md-6  animate-box wow bounceInLeft" data-wow-delay="0.4s" >
@@ -60,7 +61,7 @@
 			</div>
 
 		</div>
-
+        <br><br>
 	</div>
 
 @endsection

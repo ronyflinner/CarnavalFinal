@@ -68,7 +68,7 @@ class CarnavalController extends Controller {
 		return view('principal.peru.musica');
 	}
 	public function coreografo() {
-		return view('principal.puestaMarcha.coreografia');
+		return view('principal.peru.coreografia');
 	}
 
 	/*PUESTA EN ESCENA*/

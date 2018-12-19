@@ -26,9 +26,11 @@
 		<div class="container text-justify">
 			  <div class="row" >
 				<div class="col-md-6  animate-box">
-					<br>
+
+
 					<img src="{{url('carnaval/images/text/trama.png')}}" class="img-responsive shake-slow" width="200px" height="205px">
-					<p>La escuela de samba Unidos de Vila María homenajeará al Perú con el tema <b><i>"En las alas del gran pájaro, el vuelo de Vila María al imperio del Sol"</i></b>.
+					<br>
+					<p>La escuela de samba Uniddddddos de Vila María homenajeará al Perú con el tema <b><i>"En las alas del gran pájaro, el vuelo de Vila María al imperio del Sol"</i></b>.
 
 					</p>
 					<p>
@@ -44,8 +46,12 @@
 					</p>
 				</div>
 				<div class="col-md-6 animate-box">
+					<div class="mb-4"></div>
+					<br>
 					<img class="img-responsive img-thumbnail- bounce-in hvr-ripple-out" src="{{ url('carnaval/images/pag/puesta/trama.png') }}">
 				</div>
+
+				<br>
 			</div>
 
 
